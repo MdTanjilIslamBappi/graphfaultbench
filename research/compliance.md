@@ -89,7 +89,7 @@ Sources (read directly, logged in, 2026-10-18):
 - https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/discussion/743255 ("Clarification: number of writeups per team and eligibility across awards")
 - https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/discussion/749546 ("Word Count")
 
-This agent previously had no authenticated access to Kaggle and could not render the competition's
+I previously had no authenticated access to Kaggle and could not render the competition's
 JavaScript-based pages through automated tooling (see the 2026-10-16 entry below, kept for the
 record). Everything in *that* section was either (a) taken from pre-existing project documents and
 explicitly marked as their claim, or (b) a third-party secondary source found via web search, which
@@ -177,7 +177,7 @@ those remain open below.
 | 1 | Detailed judging rubric | Read directly, Overview tab, 2026-10-18 | **RESOLVED** — five criteria (Novelty, Quality, Relevance, Verifiability, Clarity), 0–5 each, averaged; same criteria for all three prize categories "in context of that prize" (host reply) |
 | 2 | Team size, submissions-per-day, and max final-submission/Writeup limits | Read directly, Rules tab + host reply, 2026-10-18 | **RESOLVED** — team ≤5; 5 Submissions/day; 2 Final Submissions; max 2 Writeups per team for the Paper Track (host reply, discussion #743255) — matches the 2026-10-17 secondary source exactly |
 | 3 | Bangladesh residency / age / employer / sanctions eligibility | Read directly, Rules tab Foundational Rules §3.1, 2026-10-18 | **General criteria RESOLVED** (18+, not a resident of Crimea/DNR/LNR/Cuba/Iran/North Korea, not sanctioned; Bangladesh not excluded) — personal self-certification against this text (account standing, employer policy) remains explicitly the user's own responsibility, unchanged |
-| 4 | Loc-Bench V1 (Hugging Face `czlll/Loc-Bench_V1`) license and redistribution terms | This agent read the dataset card directly | **CONFIRMED the card states no explicit license, only a citation request** — treat as "citation-only, do not redistribute the underlying patches/problem statements beyond fair use for research" until further confirmed |
+| 4 | Loc-Bench V1 (Hugging Face `czlll/Loc-Bench_V1`) license and redistribution terms | Read the dataset card directly | **CONFIRMED the card states no explicit license, only a citation request** — treat as "citation-only, do not redistribute the underlying patches/problem statements beyond fair use for research" until further confirmed |
 | 5 | Whether the Paper Track requires AI-assistance disclosure | Read directly, Rules tab + Overview tab + Discussion #745712 host reply, 2026-10-18 | **RESOLVED — no disclosure requirement exists.** Host (Elan Markowitz) confirmed AI coding/writing assistance is permitted; the only caution is a quality one (avoid "LLM slop"), not a disclosure mandate. See `docs/human_actions.md` item 8 for the policy decision this now unblocks. |
 
 ## ResearchGate — similar work and publishing feasibility (informational, checked 2026-10-18)
@@ -219,9 +219,9 @@ publication step.
   does **not** accept "hobbyists, retired researchers, or individuals researching outside their
   established professional expertise." Whether this project's AI/ML research would be accepted as
   "within your professional field" for an account holder whose stated professional background is
-  enterprise IT infrastructure consulting is genuinely uncertain and cannot be assessed by this
-  agent — it is the kind of discretionary, platform-side judgement call only ResearchGate itself
-  can make on a real application.
+  enterprise IT infrastructure consulting is genuinely uncertain and cannot be settled from this
+  research alone — it is the kind of discretionary, platform-side judgement call only ResearchGate
+  itself can make on a real application.
 - *A practical workaround worth knowing about:* every result in the searches above was an arXiv
   preprint auto-mirrored onto ResearchGate via its DOI (`10.48550/arXiv.*`), not a manually uploaded
   RG document. This suggests that if this work were ever posted to arXiv (itself a separate,
