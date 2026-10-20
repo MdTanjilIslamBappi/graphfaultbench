@@ -1,0 +1,172 @@
+[
+  {
+    "repo": "numpy/numpy",
+    "commit": "43683b3256a86659f230dcadbcde1f8020398bfa",
+    "n_files_parsed": 506,
+    "n_files_skipped": 1,
+    "n_nodes": 13046,
+    "n_edges": 42082,
+    "n_unresolved_calls": 21817,
+    "n_duplicate_ids_collapsed": 16
+  },
+  {
+    "repo": "numpy/numpy",
+    "commit": "6feb18ce79bacdac09945cf2ca0ddf85f8294298",
+    "n_files_parsed": 415,
+    "n_files_skipped": 0,
+    "n_nodes": 10749,
+    "n_edges": 34892,
+    "n_unresolved_calls": 19464,
+    "n_duplicate_ids_collapsed": 7
+  },
+  {
+    "repo": "numpy/numpy",
+    "commit": "a905925ef40a7551d16d78d81c7e6d08b59559e4",
+    "n_files_parsed": 573,
+    "n_files_skipped": 0,
+    "n_nodes": 15361,
+    "n_edges": 48086,
+    "n_unresolved_calls": 28165,
+    "n_duplicate_ids_collapsed": 15
+  },
+  {
+    "repo": "numpy/numpy",
+    "commit": "e20f11036bb7ce9f8de91eb4240e49ea4e41ef17",
+    "n_files_parsed": 566,
+    "n_files_skipped": 0,
+    "n_nodes": 15072,
+    "n_edges": 49016,
+    "n_unresolved_calls": 24355,
+    "n_duplicate_ids_collapsed": 20
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "15d6284e5a0f3333394ca4498eb56bce14a6245b",
+    "n_files_parsed": 1033,
+    "n_files_skipped": 0,
+    "n_nodes": 26363,
+    "n_edges": 75243,
+    "n_unresolved_calls": 80834,
+    "n_duplicate_ids_collapsed": 100
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "1d5ca99ae1afd2a0c298c8eafde04dbe915588c8",
+    "n_files_parsed": 1029,
+    "n_files_skipped": 0,
+    "n_nodes": 25969,
+    "n_edges": 72153,
+    "n_unresolved_calls": 81155,
+    "n_duplicate_ids_collapsed": 97
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "7f03fbaf30c400ff4bb14020f7f284ec2703c4d1",
+    "n_files_parsed": 1032,
+    "n_files_skipped": 0,
+    "n_nodes": 26336,
+    "n_edges": 75142,
+    "n_unresolved_calls": 80734,
+    "n_duplicate_ids_collapsed": 100
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "caa7e2ab245a808a1c55a20fb5d5b49daf8bad93",
+    "n_files_parsed": 1033,
+    "n_files_skipped": 0,
+    "n_nodes": 26363,
+    "n_edges": 75243,
+    "n_unresolved_calls": 80834,
+    "n_duplicate_ids_collapsed": 100
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "ccb338fa0521070107200a9ebcab67905b286a7a",
+    "n_files_parsed": 544,
+    "n_files_skipped": 7,
+    "n_nodes": 13740,
+    "n_edges": 34933,
+    "n_unresolved_calls": 45235,
+    "n_duplicate_ids_collapsed": 30
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "ec30b43e143ac0cb0e30129d4da0dbaa29e74c34",
+    "n_files_parsed": 1030,
+    "n_files_skipped": 0,
+    "n_nodes": 26083,
+    "n_edges": 72373,
+    "n_unresolved_calls": 81965,
+    "n_duplicate_ids_collapsed": 102
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "edea1192fe142306ee6ecaf94c02873dadb00255",
+    "n_files_parsed": 1031,
+    "n_files_skipped": 0,
+    "n_nodes": 26127,
+    "n_edges": 72413,
+    "n_unresolved_calls": 82511,
+    "n_duplicate_ids_collapsed": 102
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "f33f5f644b665532cecc098a4b6215c1fe11ee7b",
+    "n_files_parsed": 1031,
+    "n_files_skipped": 0,
+    "n_nodes": 26029,
+    "n_edges": 72350,
+    "n_unresolved_calls": 81407,
+    "n_duplicate_ids_collapsed": 97
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "50cccb3823e53e187723f5dd713e2f1299405d1e",
+    "n_files_parsed": 144,
+    "n_files_skipped": 0,
+    "n_nodes": 5418,
+    "n_edges": 18013,
+    "n_unresolved_calls": 8566,
+    "n_duplicate_ids_collapsed": 35
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "51145aad138d03fc9f462e59b9c9398a75905899",
+    "n_files_parsed": 144,
+    "n_files_skipped": 0,
+    "n_nodes": 5428,
+    "n_edges": 18183,
+    "n_unresolved_calls": 8462,
+    "n_duplicate_ids_collapsed": 37
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "c0377bf80e72134ad7bf29aa847f0301fbdb130f",
+    "n_files_parsed": 131,
+    "n_files_skipped": 0,
+    "n_nodes": 5006,
+    "n_edges": 16494,
+    "n_unresolved_calls": 7121,
+    "n_duplicate_ids_collapsed": 28
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "cc9a14aa3a29e54e2da3045083cca865654e3ff9",
+    "n_files_parsed": 137,
+    "n_files_skipped": 0,
+    "n_nodes": 5389,
+    "n_edges": 17911,
+    "n_unresolved_calls": 8335,
+    "n_duplicate_ids_collapsed": 32
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "dd0b6e37339bd91b2ba666208d0c92f314252f07",
+    "n_files_parsed": 143,
+    "n_files_skipped": 0,
+    "n_nodes": 5390,
+    "n_edges": 17898,
+    "n_unresolved_calls": 8537,
+    "n_duplicate_ids_collapsed": 35
+  }
+]

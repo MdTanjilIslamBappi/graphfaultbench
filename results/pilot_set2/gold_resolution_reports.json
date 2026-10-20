@@ -1,0 +1,140 @@
+[
+  {
+    "repo": "numpy/numpy",
+    "commit": "43683b3256a86659f230dcadbcde1f8020398bfa",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "numpy/numpy",
+    "commit": "6feb18ce79bacdac09945cf2ca0ddf85f8294298",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "numpy/numpy",
+    "commit": "a905925ef40a7551d16d78d81c7e6d08b59559e4",
+    "n_rows_for_commit": 2,
+    "n_resolved": 1,
+    "n_excluded": 1,
+    "excluded_instance_ids": [
+      "numpy__numpy-27598"
+    ]
+  },
+  {
+    "repo": "numpy/numpy",
+    "commit": "e20f11036bb7ce9f8de91eb4240e49ea4e41ef17",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "15d6284e5a0f3333394ca4498eb56bce14a6245b",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "1d5ca99ae1afd2a0c298c8eafde04dbe915588c8",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "7f03fbaf30c400ff4bb14020f7f284ec2703c4d1",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "caa7e2ab245a808a1c55a20fb5d5b49daf8bad93",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "ccb338fa0521070107200a9ebcab67905b286a7a",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "ec30b43e143ac0cb0e30129d4da0dbaa29e74c34",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "edea1192fe142306ee6ecaf94c02873dadb00255",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "scipy/scipy",
+    "commit": "f33f5f644b665532cecc098a4b6215c1fe11ee7b",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "50cccb3823e53e187723f5dd713e2f1299405d1e",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "51145aad138d03fc9f462e59b9c9398a75905899",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "c0377bf80e72134ad7bf29aa847f0301fbdb130f",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "cc9a14aa3a29e54e2da3045083cca865654e3ff9",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "commit": "dd0b6e37339bd91b2ba666208d0c92f314252f07",
+    "n_rows_for_commit": 1,
+    "n_resolved": 1,
+    "n_excluded": 0,
+    "excluded_instance_ids": []
+  }
+]

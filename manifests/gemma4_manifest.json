@@ -1,0 +1,14 @@
+{
+  "model": "google/gemma-4",
+  "variation": "gguf/gemma-4-e2b-it-qat-q4_0-gguf",
+  "version": 2,
+  "file": "gemma-4-E2B_q4_0-it.gguf",
+  "source_url": "https://www.kaggle.com/models/google/gemma-4/gguf/gemma-4-e2b-it-qat-q4_0-gguf",
+  "downloaded_via": "kagglehub.model_download('google/gemma-4/gguf/gemma-4-e2b-it-qat-q4_0-gguf', path='gemma-4-E2B_q4_0-it.gguf')",
+  "downloaded_file": "manifests/raw_data/gemma4/models/google/gemma-4/gguf/gemma-4-e2b-it-qat-q4_0-gguf/2/gemma-4-E2B_q4_0-it.gguf",
+  "sha256": "3646b4c147cd235a44d91df1546d3b7d8e29b547dbe4e1f80856419aa455e6fd",
+  "size_bytes": 3349514112,
+  "license": "Apache License 2.0, confirmed directly on the Kaggle model card (License field and file's own YAML frontmatter: license: apache-2.0, license_link: https://ai.google.dev/gemma/docs/gemma_4_license). See research/gemma4_downstream_go_no_go.md §6a and research/decision_log.md's 2026-10-20 entry for the full verification trail.",
+  "note": "This file is .gitignored (manifests/raw_data/) and not committed. This manifest records exact provenance for reproducibility. Sibling file gemma-4-E2B-it-mmproj.gguf (vision/audio projector, not needed for this text-only downstream demonstration) was deliberately not downloaded.",
+  "downloaded_on": "2026-10-20"
+}

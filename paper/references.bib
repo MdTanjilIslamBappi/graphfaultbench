@@ -1,0 +1,102 @@
+% Verified bibliography for GraphFaultBench (Gemma 4 Paper Track).
+%
+% Every entry here was independently confirmed against its primary source
+% (arXiv abstract page, or the Hugging Face dataset card for the dataset
+% entry) on 2026-10-17, in addition to the earlier Phase 1 verification
+% recorded in research/novelty_matrix.csv. The ARISE and RepoAtlas entries'
+% full author lists were additionally confirmed verbatim against their
+% arXiv abstract pages directly on 2026-10-18 (see each entry's note and
+% research/decision_log.md's 2026-10-18 entry) — this closed out the one
+% verification gap the 2026-10-17 pass could not complete from its network
+% environment. Two citations that appeared in
+% an earlier project document (Gemma4_Research_Contingency_v2.md), under
+% the names "StateTape" (claimed arXiv:2609.36319) and "Echo" (claimed
+% arXiv:2603.07326), could not be matched to any real paper at either ID
+% and are recorded in research/novelty_matrix.csv as likely fabricated.
+% They are deliberately NOT included here and must not be cited anywhere
+% in the manuscript.
+
+@misc{locagent2025,
+  title         = {LocAgent: Graph-Guided LLM Agents for Code Localization},
+  author        = {Chen, Zhaoling and Tang, Xiangru and Deng, Gangda and Wu, Fang and
+                    Wu, Jialong and Jiang, Zhiwei and Prasanna, Viktor and Cohan, Arman
+                    and Wang, Xingyao},
+  year          = {2025},
+  eprint        = {2503.09089},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note          = {Introduces the Loc-Bench dataset used as the evaluation substrate
+                   in this paper (Hugging Face: czlll/Loc-Bench\_V1)}
+}
+
+@misc{agentretrievalbench2026,
+  title         = {Agent Retrieval Bench: Evaluating Repository Context Retrieval for
+                    Coding Agents},
+  author        = {Qin, Bowen and Xie, Yi},
+  year          = {2026},
+  eprint        = {2607.24882},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE}
+}
+
+@misc{arise2026,
+  title         = {ARISE: A Repository-level Graph Representation and Toolset for
+                    Agentic Program Repair and Fault Localization},
+  author        = {Seddik, Shahd and Seddik, Fahd and Esmaeili, Amirrezza and
+                    Sadatbenis, Mahdieh and Fard, Fatemeh},
+  year          = {2026},
+  eprint        = {2605.03117},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note          = {Title and full five-author list independently confirmed verbatim
+                   against the arXiv abstract page directly on 2026-10-18 (v2, revised
+                   3 Jul 2026). arXiv's own submission history notes v2 "additional
+                   authors added" relative to v1 — this explains an earlier secondary
+                   search summary that showed only two authors (Seddik, Fard); that
+                   summary was evidently indexing v1, not the current revision this
+                   paper cites}
+}
+
+@misc{agentnoisebench2026,
+  title         = {AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents
+                    Under Noisy Condition},
+  author        = {Wang, Ruipeng and Chen, Yuxin and Wang, Yukai and Wu, Chang and
+                    Fang, Junfeng and Cai, Xiaodong and Gu, Qi and Su, Hui and Zhang, An
+                    and Wang, Xiang and Cai, Xunliang and Chua, Tat-Seng},
+  year          = {2026},
+  eprint        = {2602.11348},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI}
+}
+
+@misc{repoatlas2026,
+  title         = {RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository
+                    Views},
+  author        = {Zhang, Yunxiang and Wang, Haiquan and Guo, JiaWei and Xia, Hanyang
+                    and Chen, Yan and Chen, Tong and Zhang, Zhiwei and Ye, Junchen},
+  year          = {2026},
+  eprint        = {2609.16936},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note          = {Title and arXiv identifier independently confirmed; the specific
+                   headline figures reported in this paper's Related Work section
+                   were re-verified on 2026-10-17 against the arXiv abstract page
+                   directly. Full eight-author list independently confirmed verbatim
+                   against the arXiv abstract page on 2026-10-18}
+}
+
+@misc{larger2026,
+  title         = {LARGER: Lexically Anchored Repository Graph Exploration and
+                    Retrieval},
+  author        = {Hu, Yuntong and Su, Tongli and Zhao, Liang and Zhu, Bowen
+                    and Haque, Hasibul},
+  year          = {2026},
+  eprint        = {2605.16352},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note          = {Title, author list and submission date independently verified
+                   against the arXiv abstract page on 2026-10-20. Evaluated on
+                   LocBench (the same Loc-Bench V1 benchmark used in this paper),
+                   among three other benchmarks; reports file-level Acc@5 gains
+                   over the strongest baseline, largest on LocBench.}
+}

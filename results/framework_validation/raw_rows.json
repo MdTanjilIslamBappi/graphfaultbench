@@ -1,0 +1,3002 @@
+[
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 1,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 2,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 3,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 4,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.0,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.25,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.5,
+    "hit_at_3": 1.0,
+    "policy_chosen": "hybrid",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t1",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t2",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t3",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t4",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "bm25",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "graph_expansion",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "fixed_hybrid",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0
+  },
+  {
+    "task_id": "t5",
+    "method": "diagnostic_gate",
+    "seed": 5,
+    "severity": 0.75,
+    "hit_at_3": 1.0,
+    "policy_chosen": "lexical_only",
+    "node_coverage": 1.0
+  }
+]

@@ -1,0 +1,798 @@
+[
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18091",
+    "severity": 0.0,
+    "candidate_pool": [
+      "mypy/test/testpep561.py:test_mypy_path_is_respected",
+      "mypy/test/test_find_sources.py:SourceFinderSuite.test_find_sources_exclude",
+      "misc/incremental_checker.py:<module>",
+      "mypy/options.py:Options",
+      "mypy/errors.py:report_internal_error",
+      "mypyc/__main__.py:<module>",
+      "mypy/test/testpep561.py:test_pep561",
+      "mypy/fscache.py:FileSystemCache.init_under_package_root",
+      "mypy/test/testutil.py:TestWriteJunitXml.test_junit_fail_two_files",
+      "mypy/test/testpythoneval.py:test_python_evaluation",
+      "mypy/test/testutil.py:TestWriteJunitXml",
+      "mypy/modulefinder.py:ModuleNotFoundReason",
+      "mypy/options.py:Options.__init__",
+      "mypy/test/testutil.py:TestWriteJunitXml.test_junit_fail_escape_xml_chars",
+      "mypy/test/testargs.py:ArgSuite"
+    ],
+    "raw_output": "mypy/errors.py:report_internal_error (function): Report internal error and exit.  This optionally starts pdb or shows a traceback. def report_interna",
+    "gold_node_ids": [
+      "mypy/checkpattern.py:PatternChecker.visit_sequence_pattern"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18091",
+    "severity": 0.5,
+    "candidate_pool": [
+      "mypy/test/testpep561.py:test_mypy_path_is_respected",
+      "mypy/test/test_find_sources.py:SourceFinderSuite.test_find_sources_exclude",
+      "misc/incremental_checker.py:<module>",
+      "mypy/options.py:Options",
+      "mypy/errors.py:report_internal_error",
+      "mypyc/__main__.py:<module>",
+      "mypy/test/testpep561.py:test_pep561",
+      "mypy/fscache.py:FileSystemCache.init_under_package_root",
+      "mypy/test/testutil.py:TestWriteJunitXml.test_junit_fail_two_files",
+      "mypy/test/testpythoneval.py:test_python_evaluation",
+      "mypy/test/testutil.py:TestWriteJunitXml",
+      "mypy/modulefinder.py:ModuleNotFoundReason",
+      "mypy/options.py:Options.__init__",
+      "mypy/test/testutil.py:TestWriteJunitXml.test_junit_fail_escape_xml_chars",
+      "mypy/test/testargs.py:ArgSuite"
+    ],
+    "raw_output": "mypy/errors.py:report_internal_error (function): Report internal error and exit.  This optionally starts pdb or shows a traceback. def report_interna",
+    "gold_node_ids": [
+      "mypy/checkpattern.py:PatternChecker.visit_sequence_pattern"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18141",
+    "severity": 0.0,
+    "candidate_pool": [
+      "mypy/infer.py:ArgumentInferContext",
+      "mypy/checkmember.py:analyze_decorator_or_funcbase_access",
+      "mypy/checker.py:TypeChecker.inference_error_fallback_type",
+      "misc/sync-typeshed.py:create_or_update_pull_request",
+      "mypy/nodes.py:ClassDef.deserialize",
+      "mypy/subtypes.py:SubtypeVisitor.visit_partial_type",
+      "mypy/messages.py:MessageBuilder.maybe_note_about_special_args",
+      "misc/sync-typeshed.py:get_origin_owner",
+      "mypy/checker.py:TypeChecker.visit_with_stmt",
+      "mypy/semanal.py:SemanticAnalyzer.check_classvar",
+      "mypy/util.py:check_python_version",
+      "misc/gen_blog_post_html.py:convert",
+      "misc/generate_changelog.py:format_changelog_entry",
+      "mypy/checker.py:TypeChecker.type_check_raise",
+      "mypy/test/testpythoneval.py:<module>"
+    ],
+    "raw_output": "mypy/infer.py:ArgumentInferContext (class): Type argument inference context. We need this because we pass around ``Mapping`` and ``Iterable`` t",
+    "gold_node_ids": [
+      "mypy/checkpattern.py:PatternChecker.should_self_match"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18141",
+    "severity": 0.5,
+    "candidate_pool": [
+      "mypy/infer.py:ArgumentInferContext",
+      "mypy/checkmember.py:analyze_decorator_or_funcbase_access",
+      "mypy/checker.py:TypeChecker.inference_error_fallback_type",
+      "misc/sync-typeshed.py:create_or_update_pull_request",
+      "mypy/nodes.py:ClassDef.deserialize",
+      "mypy/subtypes.py:SubtypeVisitor.visit_partial_type",
+      "mypy/messages.py:MessageBuilder.maybe_note_about_special_args",
+      "misc/sync-typeshed.py:get_origin_owner",
+      "mypy/checker.py:TypeChecker.visit_with_stmt",
+      "mypy/semanal.py:SemanticAnalyzer.check_classvar",
+      "mypy/util.py:check_python_version",
+      "misc/gen_blog_post_html.py:convert",
+      "misc/generate_changelog.py:format_changelog_entry",
+      "mypy/checker.py:TypeChecker.type_check_raise",
+      "mypy/test/testpythoneval.py:<module>"
+    ],
+    "raw_output": "mypy/infer.py:ArgumentInferContext (class): Type argument inference context. We need this because we pass around ``Mapping`` and ``Iterable`` t",
+    "gold_node_ids": [
+      "mypy/checkpattern.py:PatternChecker.should_self_match"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18197",
+    "severity": 0.0,
+    "candidate_pool": [
+      "mypy/errors.py:report_internal_error",
+      "mypy/nodes.py:TypeVarExpr",
+      "mypy/type_visitor.py:BoolTypeQuery",
+      "mypy/type_visitor.py:BoolTypeQuery.__init__",
+      "mypy/types.py:Instance",
+      "mypy/nodes.py:TypeAlias",
+      "mypy/expandtype.py:ExpandTypeVisitor",
+      "misc/incremental_checker.py:<module>",
+      "mypy/util.py:check_python_version",
+      "mypyc/sametype.py:is_same_method_signature",
+      "mypy/fscache.py:FileSystemCache.init_under_package_root",
+      "mypyc/sametype.py:is_same_signature",
+      "mypy/plugin.py:<module>",
+      "mypy/checker.py:TypeChecker.inference_error_fallback_type",
+      "misc/gen_blog_post_html.py:convert"
+    ],
+    "raw_output": "mypy/nodes.py:TypeAlias (class)\nmypy/nodes.py:TypeVarExpr (class)\nmypy/expandtype.py:ExpandTypeVisitor (class)\nmypy/checker.py:TypeChecker.inference_error_fallback_type (method)\nmypy/types.py:Instance (class)",
+    "gold_node_ids": [
+      "mypy/typeanal.py:set_any_tvars"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18197",
+    "severity": 0.5,
+    "candidate_pool": [
+      "mypy/errors.py:report_internal_error",
+      "mypy/nodes.py:TypeVarExpr",
+      "mypy/type_visitor.py:BoolTypeQuery",
+      "mypy/type_visitor.py:BoolTypeQuery.__init__",
+      "mypy/types.py:Instance",
+      "mypy/nodes.py:TypeAlias",
+      "mypy/expandtype.py:ExpandTypeVisitor",
+      "misc/incremental_checker.py:<module>",
+      "mypy/util.py:check_python_version",
+      "mypyc/sametype.py:is_same_method_signature",
+      "mypy/fscache.py:FileSystemCache.init_under_package_root",
+      "mypyc/sametype.py:is_same_signature",
+      "mypy/plugin.py:<module>",
+      "mypy/checker.py:TypeChecker.inference_error_fallback_type",
+      "misc/gen_blog_post_html.py:convert"
+    ],
+    "raw_output": "mypy/nodes.py:TypeAlias (class)\nmypy/nodes.py:TypeVarExpr (class)\nmypy/expandtype.py:ExpandTypeVisitor (class)\nmypy/checker.py:TypeChecker.inference_error_fallback_type (method)\nmypy/types.py:Instance (class)",
+    "gold_node_ids": [
+      "mypy/typeanal.py:set_any_tvars"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18163",
+    "severity": 0.0,
+    "candidate_pool": [
+      "mypy/binder.py:ConditionalTypeBinder",
+      "mypyc/analysis/ircheck.py:OpChecker.check_frozenset_items_valid_literals",
+      "mypy/types.py:PartialType",
+      "mypyc/analysis/ircheck.py:OpChecker.check_tuple_items_valid_literals",
+      "mypy/checkexpr.py:ExpressionChecker.possible_none_type_var_overlap",
+      "mypy/checkexpr.py:ExpressionChecker.dangerous_comparison",
+      "mypyc/test-data/fixtures/ir.py:set",
+      "mypy/checker.py:builtin_item_type",
+      "mypy/suggestions.py:get_arg_uses",
+      "mypyc/test-data/fixtures/ir.py:str",
+      "mypy/renaming.py:VariableRenameVisitor.reject_redefinition_of_vars_in_scope",
+      "mypyc/test-data/fixtures/ir.py:bytes",
+      "mypy/checker.py:TypeChecker.type_check_raise",
+      "mypyc/irbuild/main.py:<module>",
+      "mypy/test/teststubgen.py:StubgenUtilSuite.test_remove_misplaced_type_comments_bytes"
+    ],
+    "raw_output": "mypy/binder.py:ConditionalTypeBinder (class)\nmypy/checkexpr.py:ExpressionChecker.possible_none_type_var_overlap (method)\nmypy/checkexpr.py:ExpressionChecker.dangerous_comparison (method)\nmypy/checkexpr.py:ExpressionChecker.possible_none_type_var_overlap (method)\nmypy/checker.py:TypeChecker.type_check_raise (method)",
+    "gold_node_ids": [
+      "mypy/checker.py:TypeChecker.refine_away_none_in_comparison"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18163",
+    "severity": 0.5,
+    "candidate_pool": [
+      "mypy/binder.py:ConditionalTypeBinder",
+      "mypyc/analysis/ircheck.py:OpChecker.check_frozenset_items_valid_literals",
+      "mypy/types.py:PartialType",
+      "mypy/checkexpr.py:ExpressionChecker.possible_none_type_var_overlap",
+      "mypy/checkexpr.py:ExpressionChecker.dangerous_comparison",
+      "mypyc/test-data/fixtures/ir.py:set",
+      "mypy/checker.py:builtin_item_type",
+      "mypy/suggestions.py:get_arg_uses",
+      "mypyc/test-data/fixtures/ir.py:str",
+      "mypy/renaming.py:VariableRenameVisitor.reject_redefinition_of_vars_in_scope",
+      "mypyc/test-data/fixtures/ir.py:bytes",
+      "mypy/checker.py:TypeChecker.type_check_raise",
+      "mypyc/irbuild/main.py:<module>",
+      "mypy/test/teststubgen.py:StubgenUtilSuite.test_remove_misplaced_type_comments_bytes",
+      "mypyc/analysis/ircheck.py:OpChecker.check_tuple_items_valid_literals"
+    ],
+    "raw_output": "mypy/binder.py:ConditionalTypeBinder (class)\nmypy/checkexpr.py:ExpressionChecker.possible_none_type_var_overlap (method)\nmypy/checkexpr.py:ExpressionChecker.dangerous_comparison (method)\nmypy/types.py:PartialType (class)\nmypy/checker.py:TypeChecker.type_check_raise (method)",
+    "gold_node_ids": [
+      "mypy/checker.py:TypeChecker.refine_away_none_in_comparison"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18293",
+    "severity": 0.0,
+    "candidate_pool": [
+      "mypy/test/teststubtest.py:StubtestUnit.test_runtime_typing_objects",
+      "mypy/meet.py:typed_dict_mapping_overlap",
+      "mypy/messages.py:MessageBuilder.typeddict_setdefault_arguments_inconsistent",
+      "mypy/plugins/default.py:typed_dict_setdefault_signature_callback",
+      "mypy/test/teststubtest.py:StubtestUnit.test_type_check_only",
+      "mypyc/irbuild/builder.py:IRBuilder.get_module_attr",
+      "mypy/argmap.py:ArgTypeExpander",
+      "mypy/errors.py:ErrorInfo",
+      "mypy/types.py:TypedDictType",
+      "mypy/errors.py:Errors.sort_messages",
+      "mypy/plugins/default.py:typed_dict_setdefault_callback",
+      "mypy/test/meta/test_update_data.py:UpdateDataSuite",
+      "mypy/messages.py:MessageBuilder.typeddict_key_not_found",
+      "mypy/test/teststubtest.py:StubtestUnit.test_special_subtype",
+      "mypy/test/meta/test_update_data.py:UpdateDataSuite.test_update_data"
+    ],
+    "raw_output": "mypy/messages.py:MessageBuilder.typeddict_setdefault_arguments_inconsistent (method): def typeddict_setdefault_arguments_inconsistent(         self, default: Type, expected: Type, contex\nmypy/plugins/default.py:typed_dict_setdefault_signature_callback (function): Try to infer a better signature type for TypedDict.  This is used to get better type cont\nmypy/types.py:TypedDictType (class): Type of TypedDict object {'k1': v1, ..., 'kn': vn}.  A TypedDict object is a dictionary with specifi\nmypy/messages.py:MessageBuilder.typeddict_key_not_found (method): Handle error messages for TypedDicts that have unknown keys.  Note, that we differentiate in between\nmypy/errors.py:ErrorInfo (class): Representation of a single error message. class ErrorInfo:     \"\"\"Representation of",
+    "gold_node_ids": [
+      "mypy/plugins/default.py:typed_dict_delitem_callback",
+      "mypy/plugins/default.py:typed_dict_pop_callback",
+      "mypy/plugins/default.py:typed_dict_setdefault_callback"
+    ]
+  },
+  {
+    "repo": "python/mypy",
+    "task_id": "python__mypy-18293",
+    "severity": 0.5,
+    "candidate_pool": [
+      "mypy/test/teststubtest.py:StubtestUnit.test_runtime_typing_objects",
+      "mypy/meet.py:typed_dict_mapping_overlap",
+      "mypy/messages.py:MessageBuilder.typeddict_setdefault_arguments_inconsistent",
+      "mypy/plugins/default.py:typed_dict_setdefault_signature_callback",
+      "mypy/test/teststubtest.py:StubtestUnit.test_type_check_only",
+      "mypyc/irbuild/builder.py:IRBuilder.get_module_attr",
+      "mypy/argmap.py:ArgTypeExpander",
+      "mypy/errors.py:ErrorInfo",
+      "mypy/types.py:TypedDictType",
+      "mypy/errors.py:Errors.sort_messages",
+      "mypy/test/meta/test_update_data.py:UpdateDataSuite",
+      "mypy/messages.py:MessageBuilder.typeddict_key_not_found",
+      "mypy/test/teststubtest.py:StubtestUnit.test_special_subtype",
+      "mypy/test/meta/test_update_data.py:UpdateDataSuite.test_update_data",
+      "mypy/types.py:ReadOnlyType"
+    ],
+    "raw_output": "mypy/messages.py:MessageBuilder.typeddict_setdefault_arguments_inconsistent (method): def typeddict_setdefault_arguments_inconsistent(         self, default: Type, expected: Type, contex\nmypy/plugins/default.py:typed_dict_setdefault_signature_callback (function): Try to infer a better signature type for TypedDict.  This is used to get better type cont\nmypy/types.py:TypedDictType (class): Type of TypedDict object {'k1': v1, ..., 'kn': vn}.  A TypedDict object is a dictionary with specifi\nmypy/meet.py:typed_dict_mapping_overlap (function): Check if a TypedDict type is overlapping with a Mapping.  The basic logic here consists of two rules\nmypy/errors.py:ErrorInfo (class): Representation of a single error message. class ErrorInfo:     \"\"\"Representation of a single error",
+    "gold_node_ids": [
+      "mypy/plugins/default.py:typed_dict_delitem_callback",
+      "mypy/plugins/default.py:typed_dict_pop_callback",
+      "mypy/plugins/default.py:typed_dict_setdefault_callback"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11354",
+    "severity": 0.0,
+    "candidate_pool": [
+      "dask/array/core.py:normalize_chunks",
+      "dask/array/_shuffle.py:shuffle",
+      "dask/array/reshape.py:reshape_blockwise",
+      "dask/array/rechunk.py:rechunk",
+      "dask/array/core.py:auto_chunks",
+      "dask/array/_shuffle.py:_rechunk_other_dimensions",
+      "dask/array/core.py:from_array",
+      "dask/array/creation.py:eye",
+      "dask/array/creation.py:indices",
+      "dask/array/creation.py:arange",
+      "dask/highlevelgraph.py:HighLevelGraph.from_collections",
+      "dask/array/core.py:broadcast_to",
+      "dask/array/core.py:graph_from_arraylike",
+      "dask/array/reshape.py:reshape",
+      "dask/array/reshape.py:_smooth_chunks"
+    ],
+    "raw_output": "dask/array/core.py:normalize_chunks (function): Normalize chunks to tuple of tuples  This takes in a variety of input types and information and prod\ndask/array/core.py:auto_chunks (function): Determine automatic chunks  This takes in a chunks value that contains ``\"auto\"`` values in certain\ndask/array/rechunk.py:rechunk (function): Convert blocks in dask array x for new chunks.  Parameters ---------- x: dask array\ndask/array/_rechunk_other_dimensions(function): def _rechunk_other_dimensions(     x: Array, longest_group: int, axis: int, chunks: Literal[\"auto\"]\ndask/array/core.py:normalize_chunks (function): Normalize chunks to tuple of tuples  This takes in a variety of input types and information and prod",
+    "gold_node_ids": [
+      "dask/array/core.py:_compute_multiplier",
+      "dask/array/core.py:auto_chunks",
+      "dask/array/core.py:normalize_chunks"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11354",
+    "severity": 0.5,
+    "candidate_pool": [
+      "dask/array/core.py:normalize_chunks",
+      "dask/array/_shuffle.py:shuffle",
+      "dask/array/reshape.py:reshape_blockwise",
+      "dask/array/_shuffle.py:_rechunk_other_dimensions",
+      "dask/array/core.py:from_array",
+      "dask/array/rechunk.py:rechunk",
+      "dask/array/core.py:auto_chunks",
+      "dask/highlevelgraph.py:HighLevelGraph.from_collections",
+      "dask/array/creation.py:eye",
+      "dask/array/creation.py:indices",
+      "dask/array/reshape.py:reshape",
+      "dask/array/reshape.py:_smooth_chunks",
+      "dask/array/reductions.py:topk",
+      "dask/dataframe/shuffle.py:rearrange_by_column_tasks",
+      "dask/array/routines.py:histogramdd"
+    ],
+    "raw_output": "dask/array/core.py:normalize_chunks (function): Normalize chunks to tuple of tuples  This takes in a variety of input types and information and prod\ndask/array/rechunk.py:rechunk (function): Convert blocks in dask array x for new chunks.  Parameters ---------- x: dask array     Array to be\ndask/array/_rechunk_other_dimensions(x: Array, longest_group: int, axis: int, chunks: Literal[\"auto\"]\ndask/array/core.py:auto_chunks (function): Determine automatic chunks  This takes in a chunks value that contains ``\"auto\"`` values in certain\ndask/array/reshape.py:_smooth_chunks(ileft, ii, max_in_chunk, result_inchunks):     # The previous step squashed the w",
+    "gold_node_ids": [
+      "dask/array/core.py:_compute_multiplier",
+      "dask/array/core.py:auto_chunks",
+      "dask/array/core.py:normalize_chunks"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11605",
+    "severity": 0.0,
+    "candidate_pool": [
+      "dask/array/overlap.py:overlap",
+      "dask/array/core.py:Array.map_overlap",
+      "dask/array/overlap.py:trim_internal",
+      "dask/array/overlap.py:map_overlap",
+      "dask/array/tests/test_overlap.py:test_map_overlap",
+      "dask/array/tests/test_overlap.py:test_map_overlap_multiarray_variadic",
+      "dask/array/tests/test_overlap.py:test_map_overlap_multiarray_different_depths",
+      "dask/array/overlap.py:trim_overlap",
+      "dask/array/tests/test_overlap.py:test_overlap_allow_rechunk_kwarg",
+      "dask/array/overlap.py:ensure_minimum_chunksize",
+      "dask/array/routines.py:gradient",
+      "dask/array/overlap.py:overlap_internal",
+      "dask/array/tests/test_overlap.py:test_overlap",
+      "dask/array/blockwise.py:blockwise",
+      "dask/array/tests/test_overlap.py:test_map_overlap_trim_using_drop_axis_and_different_depths"
+    ],
+    "raw_output": "dask/array/core.py:Array.map_overlap (method): Map a function over blocks of the array with some overlap",
+    "gold_node_ids": [
+      "dask/array/overlap.py:map_overlap",
+      "dask/array/overlap.py:overlap"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11605",
+    "severity": 0.5,
+    "candidate_pool": [
+      "dask/array/overlap.py:overlap",
+      "dask/array/core.py:Array.map_overlap",
+      "dask/array/overlap.py:trim_internal",
+      "dask/array/overlap.py:map_overlap",
+      "dask/array/overlap.py:overlap_internal",
+      "dask/array/blockwise.py:blockwise",
+      "dask/array/tests/test_overlap.py:test_map_overlap",
+      "dask/array/tests/test_overlap.py:test_map_overlap_multiarray_variadic",
+      "dask/array/tests/test_overlap.py:test_map_overlap_multiarray_different_depths",
+      "dask/array/overlap.py:trim_overlap",
+      "dask/array/core.py:from_func",
+      "dask/array/tests/test_overlap.py:test_depth_greater_than_smallest_chunk_combines_chunks",
+      "dask/array/tests/test_overlap.py:test_overlap_allow_rechunk_kwarg",
+      "dask/array/core.py:Array.compute_chunk_sizes",
+      "dask/array/tests/test_overlap.py:test_map_overlap_deprecated_signature"
+    ],
+    "raw_output": "dask/array/core.py:Array.map_overlap (method): Map a function over blocks of the array with some overlap",
+    "gold_node_ids": [
+      "dask/array/overlap.py:map_overlap",
+      "dask/array/overlap.py:overlap"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-10750",
+    "severity": 0.0,
+    "candidate_pool": [
+      "dask/dataframe/core.py:DataFrame.sort_values",
+      "dask/bag/core.py:Bag.repartition",
+      "dask/dataframe/core.py:_Frame.repartition",
+      "dask/dataframe/multi.py:broadcast_join",
+      "dask/dataframe/shuffle.py:sort_values",
+      "dask/dataframe/core.py:DataFrame.set_index",
+      "dask/dataframe/shuffle.py:rearrange_by_column_tasks",
+      "dask/bag/core.py:repartition_npartitions",
+      "dask/dataframe/core.py:repartition_size",
+      "dask/dataframe/groupby.py:_shuffle_aggregate",
+      "dask/dataframe/tests/test_shuffle.py:test_shuffle_by_as_list",
+      "dask/bag/core.py:Bag.groupby",
+      "dask/dataframe/io/sql.py:read_sql_query",
+      "dask/dataframe/core.py:repartition",
+      "dask/dataframe/core.py:repartition_npartitions"
+    ],
+    "raw_output": "dask/dataframe/core.py:DataFrame.sort_values (method): Sort the dataset by a single column. Sorting a parallel dataset requires expensive shuffles and is\ndask/dataframe/core.py:DataFrame.set_index (method): Set the DataFrame index (row labels) using an existing column. If `sort=False`, this function ope\ndask/dataframe/shuffle.py:sort_values (function): See DataFrame.sort_values for docstring def sort_values(\ndask/dataframe/core.py:DataFrame.repartition (function): Repartition dataframe along new divisions Dask.DataFrame objects are partitioned along their index.\ndask/dataframe/core.py:repartition_npartitions (function): Repartition dataframe to a smaller number of partitions def repartition_npartitions(df, npartitions)",
+    "gold_node_ids": [
+      "dask/dataframe/shuffle.py:set_index",
+      "dask/dataframe/shuffle.py:sort_values"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-10750",
+    "severity": 0.5,
+    "candidate_pool": [
+      "dask/dataframe/core.py:DataFrame.sort_values",
+      "dask/bag/core.py:Bag.repartition",
+      "dask/dataframe/core.py:_Frame.repartition",
+      "dask/dataframe/core.py:DataFrame.set_index",
+      "dask/dataframe/shuffle.py:rearrange_by_column_tasks",
+      "dask/bag/core.py:repartition_npartitions",
+      "dask/dataframe/core.py:repartition_size",
+      "dask/dataframe/multi.py:broadcast_join",
+      "dask/bag/core.py:Bag.groupby",
+      "dask/dataframe/io/sql.py:read_sql_query",
+      "dask/dataframe/core.py:repartition",
+      "dask/dataframe/shuffle.py:sort_values",
+      "dask/dataframe/core.py:repartition_npartitions",
+      "dask/dataframe/core.py:DataFrame",
+      "dask/array/core.py:round_to"
+    ],
+    "raw_output": "dask/dataframe/core.py:DataFrame.sort_values (method): Sort the dataset by a single column. Sorting a parallel dataset requires expensive shuffles and is",
+    "gold_node_ids": [
+      "dask/dataframe/shuffle.py:set_index",
+      "dask/dataframe/shuffle.py:sort_values"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11479",
+    "severity": 0.0,
+    "candidate_pool": [
+      "dask/array/_shuffle.py:shuffle",
+      "dask/array/reshape.py:_smooth_chunks",
+      "dask/array/core.py:from_array",
+      "dask/array/core.py:normalize_chunks",
+      "dask/array/core.py:asarray",
+      "dask/array/core.py:asanyarray",
+      "dask/array/core.py:graph_from_arraylike",
+      "dask/typing.py:DaskCollection.__dask_postcompute__",
+      "dask/highlevelgraph.py:HighLevelGraph.from_collections",
+      "dask/array/reshape.py:reshape_blockwise",
+      "dask/array/rechunk.py:rechunk",
+      "dask/dataframe/io/parquet/arrow.py:ArrowDatasetEngine._construct_collection_plan",
+      "dask/array/routines.py:histogramdd",
+      "dask/dataframe/core.py:DataFrame.set_index",
+      "dask/utils.py:SerializableLock"
+    ],
+    "raw_output": "dask/array/_shuffle.py:shuffle (function): Reorders one dimensions of a Dask Array based on an indexer.  The indexer defines a list of position\ndask/array/reshape.py:_smooth_chunks (function): def _smooth_chunks(ileft, ii, max_in_chunk, result_inchunks):     # The previous step squashed the w\ndask/array/core.py:from_array (function): Create dask array from something that looks like an array.  Input must have a ``.shape``, ``.ndim``,\ndask/array/core.py:normalize_chunks (function): Normalize chunks to tuple of tuples  This takes in a variety of input types and information and prod\ndask/array/core.py:asarray (function): Convert the input to a dask array.  Parameters ---------- a : array-like     Input data, in any form",
+    "gold_node_ids": [
+      "dask/array/overlap.py:sliding_window_view"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11479",
+    "severity": 0.5,
+    "candidate_pool": [
+      "dask/array/_shuffle.py:shuffle",
+      "dask/array/reshape.py:_smooth_chunks",
+      "dask/array/core.py:from_array",
+      "dask/array/core.py:normalize_chunks",
+      "dask/array/core.py:graph_from_arraylike",
+      "dask/typing.py:DaskCollection.__dask_postcompute__",
+      "dask/array/reshape.py:reshape_blockwise",
+      "dask/array/rechunk.py:rechunk",
+      "dask/dataframe/io/parquet/arrow.py:ArrowDatasetEngine._construct_collection_plan",
+      "dask/array/routines.py:histogramdd",
+      "dask/dataframe/core.py:DataFrame.set_index",
+      "dask/utils.py:SerializableLock",
+      "dask/array/routines.py:_unique_internal",
+      "dask/dataframe/shuffle.py:rearrange_by_column_tasks",
+      "dask/dataframe/groupby.py:_shuffle_aggregate"
+    ],
+    "raw_output": "dask/array/core.py:graph_from_arraylike (function)\ndask/array/reshape.py:reshape_blockwise (function)\ndask/array/rechunk.py:rechunk (function)\ndask/array/routines.py:histogramdd (function)\ndask/array/core.py:from_array (function)",
+    "gold_node_ids": [
+      "dask/array/overlap.py:sliding_window_view"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11393",
+    "severity": 0.0,
+    "candidate_pool": [
+      "dask/dataframe/io/tests/test_io.py:test_from_delayed_misordered_meta",
+      "dask/dataframe/io/tests/test_io.py:test_from_pandas_with_datetime_index",
+      "dask/dataframe/io/tests/test_parquet.py:test_null_partition_pyarrow",
+      "dask/dataframe/tests/test_dataframe.py:test_view",
+      "dask/dataframe/io/tests/test_csv.py:test_parse_dates_multi_column",
+      "dask/dataframe/tests/test_shuffle.py:test_set_index_categorical",
+      "dask/dataframe/tseries/tests/test_resample.py:test_resample_index_name",
+      "dask/dataframe/tests/test_utils_dataframe.py:test_check_matching_columns_raises_appropriate_errors",
+      "dask/dataframe/io/tests/test_parquet.py:test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema",
+      "dask/dataframe/tests/test_multi.py:test_concat_dataframe_empty",
+      "dask/dataframe/io/tests/test_parquet.py:test_pyarrow_schema_inference",
+      "dask/dataframe/tests/test_dataframe.py:test_categorize_info",
+      "dask/dataframe/io/tests/test_parquet.py:test_append_with_partition",
+      "dask/dataframe/tests/test_accessors.py:test_dt_accessor",
+      "dask/dataframe/tests/test_dataframe.py:test_groupby_multilevel_info"
+    ],
+    "raw_output": "dask/dataframe/tests/test_check_matching_columns_raises_appropriate_errors (function)\ndask/dataframe/io/tests/test_from_delayed_misordered_meta (function)\ndask/dataframe/io/tests/test_from_pandas_with_datetime_index (function)\ndask/dataframe/tests/test_resample_index_name (function)\ndask/dataframe/tests/test_utils_dataframe.py:test_check_matching_columns_raises_appropriate_errors (function)",
+    "gold_node_ids": [
+      "dask/dataframe/utils.py:check_matching_columns"
+    ]
+  },
+  {
+    "repo": "dask/dask",
+    "task_id": "dask__dask-11393",
+    "severity": 0.5,
+    "candidate_pool": [
+      "dask/dataframe/io/tests/test_io.py:test_from_delayed_misordered_meta",
+      "dask/dataframe/io/tests/test_io.py:test_from_pandas_with_datetime_index",
+      "dask/dataframe/io/tests/test_parquet.py:test_null_partition_pyarrow",
+      "dask/dataframe/tests/test_dataframe.py:test_view",
+      "dask/dataframe/io/tests/test_csv.py:test_parse_dates_multi_column",
+      "dask/dataframe/tests/test_shuffle.py:test_set_index_categorical",
+      "dask/dataframe/tseries/tests/test_resample.py:test_resample_index_name",
+      "dask/dataframe/tests/test_utils_dataframe.py:test_check_matching_columns_raises_appropriate_errors",
+      "dask/dataframe/io/tests/test_parquet.py:test_to_parquet_pyarrow_w_inconsistent_schema_by_partition_succeeds_w_manual_schema",
+      "dask/dataframe/tests/test_multi.py:test_concat_dataframe_empty",
+      "dask/dataframe/io/tests/test_parquet.py:test_pyarrow_schema_inference",
+      "dask/dataframe/tests/test_dataframe.py:test_categorize_info",
+      "dask/dataframe/io/tests/test_parquet.py:test_append_with_partition",
+      "dask/dataframe/tests/test_accessors.py:test_dt_accessor",
+      "dask/dataframe/tests/test_dataframe.py:test_groupby_multilevel_info"
+    ],
+    "raw_output": "dask/dataframe/tests/test_check_matching_columns_raises_appropriate_errors (function)\ndask/dataframe/io/tests/test_from_delayed_misordered_meta (function)\ndask/dataframe/io/tests/test_from_pandas_with_datetime_index (function)\ndask/dataframe/tests/test_resample_index_name (function)\ndask/dataframe/tests/test_utils_dataframe.py:test_check_matching_columns_raises_appropriate_errors (function)",
+    "gold_node_ids": [
+      "dask/dataframe/utils.py:check_matching_columns"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-13756",
+    "severity": 0.0,
+    "candidate_pool": [
+      "src/prefect/tasks.py:Task.map",
+      "src/prefect/task_server.py:serve",
+      "src/prefect/task_server.py:TaskServer",
+      "src/prefect/tasks.py:Task",
+      "src/prefect/task_runners.py:TaskRunner.map",
+      "src/integrations/prefect-databricks/prefect_databricks/jobs.py:jobs_runs_repair",
+      "src/prefect/task_runners.py:TaskRunner",
+      "src/prefect/runner/submit.py:submit_to_runner",
+      "tests/test_artifacts.py:TestCreateArtifacts.test_create_table_artifact_using_map_succeeds",
+      "src/integrations/prefect-aws/prefect_aws/workers/ecs_worker.py:<module>",
+      "src/prefect/utilities/asyncutils.py:create_task",
+      "src/prefect/utilities/annotations.py:quote",
+      "src/prefect/cli/task.py:serve",
+      "src/integrations/prefect-gcp/prefect_gcp/bigquery.py:BigQueryWarehouse",
+      "tests/test_artifacts.py:TestCreateArtifacts.test_create_markdown_artifact_using_map_succeeds"
+    ],
+    "raw_output": "src/prefect/tasks.py:Task.map (method): Submit a mapped run of the task to a worker. Must be called within a flow function. If writing an a\nsrc/prefect/task_runners.py:TaskRunner.map (method): Submit multiple tasks to the task run engine. Args:     task: The task to submit.     parameters: T\nsrc/prefect/tasks.py:Task (class): A Prefect task definition. !!! note     we recommend using [the `@task` decorator][prefect.tasks.ta\nsrc/prefect/task_runners.py:TaskRunner (class): Abstract base class for task runners. A task runner is responsible for submitting tasks to the task\nsrc/prefect/tasks.py:Task.map (method): Submit a mapped run of the task to a worker. Must be called within a flow function. If writing an a",
+    "gold_node_ids": [
+      "src/prefect/tasks.py:Task.map",
+      "src/prefect/tasks.py:Task.submit"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-13756",
+    "severity": 0.5,
+    "candidate_pool": [
+      "src/prefect/tasks.py:Task.map",
+      "src/prefect/task_server.py:serve",
+      "src/prefect/task_server.py:TaskServer",
+      "src/prefect/tasks.py:Task",
+      "src/prefect/task_runners.py:TaskRunner.map",
+      "src/integrations/prefect-databricks/prefect_databricks/jobs.py:jobs_runs_repair",
+      "src/prefect/task_runners.py:TaskRunner",
+      "src/prefect/runner/submit.py:submit_to_runner",
+      "tests/test_artifacts.py:TestCreateArtifacts.test_create_table_artifact_using_map_succeeds",
+      "src/integrations/prefect-aws/prefect_aws/workers/ecs_worker.py:<module>",
+      "src/prefect/utilities/asyncutils.py:create_task",
+      "src/prefect/utilities/annotations.py:quote",
+      "src/prefect/cli/task.py:serve",
+      "src/integrations/prefect-gcp/prefect_gcp/bigquery.py:BigQueryWarehouse",
+      "tests/test_artifacts.py:TestCreateArtifacts.test_create_markdown_artifact_using_map_succeeds"
+    ],
+    "raw_output": "src/prefect/tasks.py:Task.map (method): Submit a mapped run of the task to a worker. Must be called within a flow function. If writing an a\nsrc/prefect/task_runners.py:TaskRunner.map (method): Submit multiple tasks to the task run engine. Args:     task: The task to submit.     parameters: T\nsrc/prefect/tasks.py:Task (class): A Prefect task definition. !!! note     we recommend using [the `@task` decorator][prefect.tasks.ta\nsrc/prefect/task_runners.py:TaskRunner (class): Abstract base class for task runners. A task runner is responsible for submitting tasks to the task\nsrc/prefect/tasks.py:Task.map (method): Submit a mapped run of the task to a worker. Must be called within a flow function. If writing an a",
+    "gold_node_ids": [
+      "src/prefect/tasks.py:Task.map",
+      "src/prefect/tasks.py:Task.submit"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-12045",
+    "severity": 0.0,
+    "candidate_pool": [
+      "tests/software/test_conda.py:TestCondaEnvironment.test_from_file_unsupported_subtype",
+      "tests/software/test_conda.py:TestCondaEnvironment",
+      "tests/software/test_conda.py:TestCondaEnvironment.test_from_file_duplicate_subtype",
+      "tests/software/test_conda.py:TestCondaEnvironment.test_from_file",
+      "src/prefect/cli/dev.py:exit_with_error_if_not_editable_install",
+      "src/prefect/_version.py:git_get_keywords",
+      "versioneer.py:git_get_keywords",
+      "src/prefect/software/pip.py:_is_editable_install",
+      "src/prefect/utilities/dockerutils.py:generate_default_dockerfile",
+      "versioneer.py:scan_setup_py",
+      "src/prefect/blocks/kubernetes.py:KubernetesClusterConfig.from_file",
+      "scripts/generate-lower-bounds.py:<module>",
+      "versioneer.py:get_cmdclass.cmd_build_ext.run",
+      "src/prefect/_internal/concurrency/inspection.py:repr_frame",
+      "src/prefect/cli/deployment.py:_load_deployments"
+    ],
+    "raw_output": "src/prefect/utilities/dockerutils.py:generate_default_dockerfile (function)\nsrc/prefect/cli/deployment.py:_load_deployments (function)\nsrc/prefect/cli/dev.py:exit_with_error_if_not_editable_install (function)\nsrc/prefect/software/pip.py:_is_editable_install (function)\nsrc/prefect/blocks/kubernetes.py:KubernetesClusterConfig.from_file (method)",
+    "gold_node_ids": [
+      "src/prefect/utilities/dockerutils.py:docker_client"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-12045",
+    "severity": 0.5,
+    "candidate_pool": [
+      "tests/software/test_conda.py:TestCondaEnvironment.test_from_file_unsupported_subtype",
+      "tests/software/test_conda.py:TestCondaEnvironment",
+      "tests/software/test_conda.py:TestCondaEnvironment.test_from_file_duplicate_subtype",
+      "tests/software/test_conda.py:TestCondaEnvironment.test_from_file",
+      "src/prefect/cli/dev.py:exit_with_error_if_not_editable_install",
+      "src/prefect/_version.py:git_get_keywords",
+      "versioneer.py:git_get_keywords",
+      "src/prefect/software/pip.py:_is_editable_install",
+      "src/prefect/utilities/dockerutils.py:generate_default_dockerfile",
+      "versioneer.py:scan_setup_py",
+      "src/prefect/blocks/kubernetes.py:KubernetesClusterConfig.from_file",
+      "scripts/generate-lower-bounds.py:<module>",
+      "versioneer.py:get_cmdclass.cmd_build_ext.run",
+      "src/prefect/_internal/concurrency/inspection.py:repr_frame",
+      "src/prefect/cli/deployment.py:_load_deployments"
+    ],
+    "raw_output": "src/prefect/utilities/dockerutils.py:generate_default_dockerfile (function)\nsrc/prefect/cli/deployment.py:_load_deployments (function)\nsrc/prefect/cli/dev.py:exit_with_error_if_not_editable_install (function)\nsrc/prefect/software/pip.py:_is_editable_install (function)\nsrc/prefect/blocks/kubernetes.py:KubernetesClusterConfig.from_file (method)",
+    "gold_node_ids": [
+      "src/prefect/utilities/dockerutils.py:docker_client"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-13366",
+    "severity": 0.0,
+    "candidate_pool": [
+      "scripts/generate-release-notes.py:<module>",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_build",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:trigger_dbt_cli_command",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_snapshot",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_seed",
+      "src/prefect/cli/deploy.py:_generate_git_clone_pull_step",
+      "src/prefect/utilities/asyncutils.py:run_sync_in_worker_thread",
+      "src/prefect/infrastructure/process.py:Process",
+      "src/prefect/client/utilities.py:inject_client",
+      "src/prefect/cli/root.py:main",
+      "src/integrations/prefect-aws/prefect_aws/ecs.py:ECSTask",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_model",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_test",
+      "src/prefect/utilities/callables.py:get_call_parameters",
+      "src/prefect/cli/shell.py:serve"
+    ],
+    "raw_output": "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_build (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:trigger_dbt_cli_command (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_snapshot (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_seed (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_model (function)",
+    "gold_node_ids": [
+      "src/prefect/cli/deployment.py:build"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-13366",
+    "severity": 0.5,
+    "candidate_pool": [
+      "scripts/generate-release-notes.py:<module>",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_build",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:trigger_dbt_cli_command",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_snapshot",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_seed",
+      "src/prefect/cli/deploy.py:_generate_git_clone_pull_step",
+      "src/prefect/utilities/asyncutils.py:run_sync_in_worker_thread",
+      "src/prefect/infrastructure/process.py:Process",
+      "src/prefect/client/utilities.py:inject_client",
+      "src/prefect/cli/root.py:main",
+      "src/integrations/prefect-aws/prefect_aws/ecs.py:ECSTask",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_model",
+      "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_test",
+      "src/prefect/utilities/callables.py:get_call_parameters",
+      "src/prefect/cli/shell.py:serve"
+    ],
+    "raw_output": "src/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_build (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:trigger_dbt_cli_command (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_snapshot (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_seed (function)\nsrc/integrations/prefect-dbt/prefect_dbt/cli/commands.py:run_dbt_model (function)",
+    "gold_node_ids": [
+      "src/prefect/cli/deployment.py:build"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-14693",
+    "severity": 0.0,
+    "candidate_pool": [
+      "src/integrations/prefect-docker/prefect_docker/containers.py:create_docker_container",
+      "src/prefect/cli/dev.py:container",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration.get_network_mode",
+      "src/integrations/prefect-docker/prefect_docker/host.py:DockerHost",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration._base_environment",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:stop_docker_container",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:remove_docker_container",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:start_docker_container",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:get_docker_container_logs",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration.get_extra_hosts",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorker._pull_image",
+      "src/prefect/settings.py:Settings.to_environment_variables",
+      "src/prefect/infrastructure/kubernetes.py:KubernetesJob",
+      "src/prefect/infrastructure/container.py:DockerContainer"
+    ],
+    "raw_output": "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration",
+    "gold_node_ids": [
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorker._build_container_settings"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-14693",
+    "severity": 0.5,
+    "candidate_pool": [
+      "src/integrations/prefect-docker/prefect_docker/containers.py:create_docker_container",
+      "src/prefect/cli/dev.py:container",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration.get_network_mode",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:stop_docker_container",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:remove_docker_container",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:start_docker_container",
+      "src/integrations/prefect-docker/prefect_docker/containers.py:get_docker_container_logs",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration.get_extra_hosts",
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorker._pull_image",
+      "src/prefect/settings.py:Settings.to_environment_variables",
+      "src/integrations/prefect-docker/prefect_docker/host.py:DockerHost",
+      "src/prefect/infrastructure/kubernetes.py:KubernetesJob",
+      "src/prefect/infrastructure/container.py:DockerContainer",
+      "src/integrations/prefect-azure/prefect_azure/container_instance.py:ACRManagedIdentity"
+    ],
+    "raw_output": "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorkerJobConfiguration",
+    "gold_node_ids": [
+      "src/integrations/prefect-docker/prefect_docker/worker.py:DockerWorker._build_container_settings"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-16145",
+    "severity": 0.0,
+    "candidate_pool": [
+      "src/prefect/server/database/migrations/versions/sqlite/2022_10_12_102048_22b7cb02e593_add_state_timestamp.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade.populate_task_has_data_in_batches",
+      "src/prefect/server/database/migrations/versions/postgresql/2022_10_12_102048_22b7cb02e593_add_state_timestamp.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c25_create_migration_index.py:upgrade.populate_task_has_data_in_batches",
+      "src/prefect/utilities/schema_tools/validation.py:_fix_null_typing",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c25_create_migration_index.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade.populate_flow_has_data_in_batches",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c25_create_migration_index.py:upgrade.populate_flow_has_data_in_batches",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df465_migrate_artifact_data.py:downgrade.nullify_artifact_ref_from_task_run_state_in_batches",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c26_migrate_artifact_data.py:downgrade.nullify_artifact_ref_from_task_run_state_in_batches",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df465_migrate_artifact_data.py:downgrade",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c26_migrate_artifact_data.py:downgrade",
+      "src/prefect/server/database/migrations/versions/sqlite/2022_04_21_113057_db6bde582447_backfill_state_name.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df465_migrate_artifact_data.py:upgrade"
+    ],
+    "raw_output": "src/prefect/task_engine.py:AsyncTaskRunEngine.initialize_run\nsrc/prefect/task_engine.py:AsyncTaskRunEngine.begin_run\nsrc/prefect/server/database/migrations/versions/sqlite/2022_10_12_102048_22b7cb02e593_add_state_timestamp.py:upgrade\nsrc/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade.populate_task_has_data_in_batches\nsrc/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d3",
+    "gold_node_ids": [
+      "src/prefect/task_engine.py:AsyncTaskRunEngine.set_state",
+      "src/prefect/task_engine.py:SyncTaskRunEngine.set_state"
+    ]
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "task_id": "PrefectHQ__prefect-16145",
+    "severity": 0.5,
+    "candidate_pool": [
+      "src/prefect/server/database/migrations/versions/sqlite/2022_10_12_102048_22b7cb02e593_add_state_timestamp.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade.populate_task_has_data_in_batches",
+      "src/prefect/server/database/migrations/versions/postgresql/2022_10_12_102048_22b7cb02e593_add_state_timestamp.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c25_create_migration_index.py:upgrade.populate_task_has_data_in_batches",
+      "src/prefect/utilities/schema_tools/validation.py:_fix_null_typing",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c25_create_migration_index.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade.populate_flow_has_data_in_batches",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c25_create_migration_index.py:upgrade.populate_flow_has_data_in_batches",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df465_migrate_artifact_data.py:downgrade.nullify_artifact_ref_from_task_run_state_in_batches",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c26_migrate_artifact_data.py:downgrade.nullify_artifact_ref_from_task_run_state_in_batches",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df465_migrate_artifact_data.py:downgrade",
+      "src/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d30c26_migrate_artifact_data.py:downgrade",
+      "src/prefect/server/database/migrations/versions/sqlite/2022_04_21_113057_db6bde582447_backfill_state_name.py:upgrade",
+      "src/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df465_migrate_artifact_data.py:upgrade"
+    ],
+    "raw_output": "src/prefect/task_engine.py:AsyncTaskRunEngine.initialize_run\nsrc/prefect/task_engine.py:AsyncTaskRunEngine.begin_run\nsrc/prefect/server/database/migrations/versions/sqlite/2022_10_12_102048_22b7cb02e593_add_state_timestamp.py:upgrade\nsrc/prefect/server/database/migrations/versions/postgresql/2023_01_26_045501_2882cd2df464_create_migration_index.py:upgrade.populate_task_has_data_in_batches\nsrc/prefect/server/database/migrations/versions/sqlite/2023_01_12_000043_f92143d3",
+    "gold_node_ids": [
+      "src/prefect/task_engine.py:AsyncTaskRunEngine.set_state",
+      "src/prefect/task_engine.py:SyncTaskRunEngine.set_state"
+    ]
+  }
+]

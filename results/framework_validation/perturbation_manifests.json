@@ -1,0 +1,217 @@
+[
+  {
+    "seed": 1,
+    "severity": 0.0,
+    "operator": "missing_edges",
+    "n_removed_edges": 0,
+    "removed_edges": []
+  },
+  {
+    "seed": 1,
+    "severity": 0.25,
+    "operator": "missing_edges",
+    "n_removed_edges": 2,
+    "removed_edges": [
+      "db.query->db.connect:calls",
+      "auth.login->util.hash:calls"
+    ]
+  },
+  {
+    "seed": 1,
+    "severity": 0.5,
+    "operator": "missing_edges",
+    "n_removed_edges": 4,
+    "removed_edges": [
+      "db.query->db.connect:calls",
+      "auth.login->util.hash:calls",
+      "auth.login->db.query:calls",
+      "auth.token->util.log:imports"
+    ]
+  },
+  {
+    "seed": 1,
+    "severity": 0.75,
+    "operator": "missing_edges",
+    "n_removed_edges": 6,
+    "removed_edges": [
+      "db.query->db.connect:calls",
+      "auth.login->util.hash:calls",
+      "auth.login->db.query:calls",
+      "api.handler->auth.login:calls",
+      "auth.token->util.log:imports",
+      "api.handler->util.log:imports"
+    ]
+  },
+  {
+    "seed": 2,
+    "severity": 0.0,
+    "operator": "missing_edges",
+    "n_removed_edges": 0,
+    "removed_edges": []
+  },
+  {
+    "seed": 2,
+    "severity": 0.25,
+    "operator": "missing_edges",
+    "n_removed_edges": 2,
+    "removed_edges": [
+      "auth.logout->db.query:calls",
+      "auth.login->auth.token:calls"
+    ]
+  },
+  {
+    "seed": 2,
+    "severity": 0.5,
+    "operator": "missing_edges",
+    "n_removed_edges": 4,
+    "removed_edges": [
+      "auth.logout->db.query:calls",
+      "auth.login->auth.token:calls",
+      "api.handler->auth.login:calls",
+      "api.handler->util.log:imports"
+    ]
+  },
+  {
+    "seed": 2,
+    "severity": 0.75,
+    "operator": "missing_edges",
+    "n_removed_edges": 6,
+    "removed_edges": [
+      "auth.logout->db.query:calls",
+      "auth.login->auth.token:calls",
+      "api.handler->auth.login:calls",
+      "auth.login->util.hash:calls",
+      "api.handler->util.log:imports",
+      "auth.token->util.log:imports"
+    ]
+  },
+  {
+    "seed": 3,
+    "severity": 0.0,
+    "operator": "missing_edges",
+    "n_removed_edges": 0,
+    "removed_edges": []
+  },
+  {
+    "seed": 3,
+    "severity": 0.25,
+    "operator": "missing_edges",
+    "n_removed_edges": 2,
+    "removed_edges": [
+      "auth.logout->db.query:calls",
+      "db.query->db.connect:calls"
+    ]
+  },
+  {
+    "seed": 3,
+    "severity": 0.5,
+    "operator": "missing_edges",
+    "n_removed_edges": 4,
+    "removed_edges": [
+      "auth.logout->db.query:calls",
+      "db.query->db.connect:calls",
+      "api.handler->auth.login:calls",
+      "auth.token->util.log:imports"
+    ]
+  },
+  {
+    "seed": 3,
+    "severity": 0.75,
+    "operator": "missing_edges",
+    "n_removed_edges": 6,
+    "removed_edges": [
+      "auth.logout->db.query:calls",
+      "db.query->db.connect:calls",
+      "api.handler->auth.login:calls",
+      "auth.login->util.hash:calls",
+      "auth.token->util.log:imports",
+      "api.handler->util.log:imports"
+    ]
+  },
+  {
+    "seed": 4,
+    "severity": 0.0,
+    "operator": "missing_edges",
+    "n_removed_edges": 0,
+    "removed_edges": []
+  },
+  {
+    "seed": 4,
+    "severity": 0.25,
+    "operator": "missing_edges",
+    "n_removed_edges": 2,
+    "removed_edges": [
+      "auth.login->util.hash:calls",
+      "auth.logout->db.query:calls"
+    ]
+  },
+  {
+    "seed": 4,
+    "severity": 0.5,
+    "operator": "missing_edges",
+    "n_removed_edges": 4,
+    "removed_edges": [
+      "auth.login->util.hash:calls",
+      "auth.logout->db.query:calls",
+      "api.handler->auth.login:calls",
+      "api.handler->util.log:imports"
+    ]
+  },
+  {
+    "seed": 4,
+    "severity": 0.75,
+    "operator": "missing_edges",
+    "n_removed_edges": 6,
+    "removed_edges": [
+      "auth.login->util.hash:calls",
+      "auth.logout->db.query:calls",
+      "api.handler->auth.login:calls",
+      "db.query->db.connect:calls",
+      "api.handler->util.log:imports",
+      "auth.token->util.log:imports"
+    ]
+  },
+  {
+    "seed": 5,
+    "severity": 0.0,
+    "operator": "missing_edges",
+    "n_removed_edges": 0,
+    "removed_edges": []
+  },
+  {
+    "seed": 5,
+    "severity": 0.25,
+    "operator": "missing_edges",
+    "n_removed_edges": 2,
+    "removed_edges": [
+      "api.handler->auth.login:calls",
+      "db.query->db.connect:calls"
+    ]
+  },
+  {
+    "seed": 5,
+    "severity": 0.5,
+    "operator": "missing_edges",
+    "n_removed_edges": 4,
+    "removed_edges": [
+      "api.handler->auth.login:calls",
+      "db.query->db.connect:calls",
+      "auth.logout->db.query:calls",
+      "api.handler->util.log:imports"
+    ]
+  },
+  {
+    "seed": 5,
+    "severity": 0.75,
+    "operator": "missing_edges",
+    "n_removed_edges": 6,
+    "removed_edges": [
+      "api.handler->auth.login:calls",
+      "db.query->db.connect:calls",
+      "auth.logout->db.query:calls",
+      "auth.login->util.hash:calls",
+      "api.handler->util.log:imports",
+      "auth.token->util.log:imports"
+    ]
+  }
+]

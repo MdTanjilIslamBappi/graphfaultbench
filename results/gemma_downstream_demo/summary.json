@@ -1,0 +1,30 @@
+{
+  "fixed_hybrid@severity=0.0": {
+    "mean": 0.26666666666666666,
+    "ci_low": 0.0,
+    "ci_high": 0.6,
+    "n_observations": 15,
+    "n_repos": 3
+  },
+  "fixed_hybrid@severity=0.5": {
+    "mean": 0.2,
+    "ci_low": 0.0,
+    "ci_high": 0.4,
+    "n_observations": 15,
+    "n_repos": 3
+  },
+  "gemma_e2b_rerank@severity=0.0": {
+    "mean": 0.26666666666666666,
+    "ci_low": 0.0,
+    "ci_high": 0.6,
+    "n_observations": 15,
+    "n_repos": 3
+  },
+  "gemma_e2b_rerank@severity=0.5": {
+    "mean": 0.2,
+    "ci_low": 0.0,
+    "ci_high": 0.4,
+    "n_observations": 15,
+    "n_repos": 3
+  }
+}

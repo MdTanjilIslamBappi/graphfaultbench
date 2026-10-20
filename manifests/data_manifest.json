@@ -1,0 +1,11 @@
+{
+  "dataset": "czlll/Loc-Bench_V1",
+  "source_url": "https://huggingface.co/datasets/czlll/Loc-Bench_V1/resolve/main/data/test-00000-of-00001.parquet",
+  "downloaded_file": "manifests/raw_data/loc_bench_v1_test.parquet",
+  "sha256": "8df0833c2c1276c5837aab923d489ab97d7654529abe759d0f59242c4978a662",
+  "n_rows": 560,
+  "n_distinct_repos": 165,
+  "license": "Not stated on HF dataset card; citation-only (cite LocAgent, arXiv 2503.09089). See research/compliance.md item 4.",
+  "note": "This file is .gitignored (manifests/raw_data/) and not committed, pending license confirmation. This manifest records exact provenance for reproducibility.",
+  "downloaded_on": "2026-10-16"
+}

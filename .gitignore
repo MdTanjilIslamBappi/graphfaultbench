@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Third-party data/code fetched at runtime — license status unresolved
+# (research/compliance.md item 4) or simply large/re-downloadable; never
+# commit. See manifests/*.json for provenance (source URL + sha256) instead.
+manifests/raw_data/
+manifests/repo_cache/
+# Also catch a symlinked repo_cache (e.g. reused across git worktrees to
+# avoid re-downloading tarballs) — a trailing-slash pattern alone does not
+# match a symlink-to-directory.
+manifests/repo_cache
+
+# Copyrighted commercial reference material (Cambridge IELTS grammar book,
+# docs/human_actions.md item 6) — used locally as a style reference, never
+# redistributed via this repository.
+references/english/

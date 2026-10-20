@@ -1,0 +1,57 @@
+{
+  "0.0": {
+    "n_total_task_seed_combos": 42,
+    "n_gold_hidden": 0,
+    "fraction_gold_hidden": 0.0,
+    "n_gold_hidden_by_repo": {},
+    "n_total_by_repo": {
+      "numpy/numpy": 6,
+      "scipy/scipy": 21,
+      "aio-libs/aiohttp": 15
+    }
+  },
+  "0.25": {
+    "n_total_task_seed_combos": 42,
+    "n_gold_hidden": 15,
+    "fraction_gold_hidden": 0.35714285714285715,
+    "n_gold_hidden_by_repo": {
+      "scipy/scipy": 6,
+      "aio-libs/aiohttp": 9
+    },
+    "n_total_by_repo": {
+      "numpy/numpy": 6,
+      "scipy/scipy": 21,
+      "aio-libs/aiohttp": 15
+    }
+  },
+  "0.5": {
+    "n_total_task_seed_combos": 42,
+    "n_gold_hidden": 25,
+    "fraction_gold_hidden": 0.5952380952380952,
+    "n_gold_hidden_by_repo": {
+      "numpy/numpy": 1,
+      "scipy/scipy": 11,
+      "aio-libs/aiohttp": 13
+    },
+    "n_total_by_repo": {
+      "numpy/numpy": 6,
+      "scipy/scipy": 21,
+      "aio-libs/aiohttp": 15
+    }
+  },
+  "0.75": {
+    "n_total_task_seed_combos": 42,
+    "n_gold_hidden": 34,
+    "fraction_gold_hidden": 0.8095238095238095,
+    "n_gold_hidden_by_repo": {
+      "numpy/numpy": 4,
+      "scipy/scipy": 16,
+      "aio-libs/aiohttp": 14
+    },
+    "n_total_by_repo": {
+      "numpy/numpy": 6,
+      "scipy/scipy": 21,
+      "aio-libs/aiohttp": 15
+    }
+  }
+}

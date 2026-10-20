@@ -1,0 +1,98 @@
+{
+  "bm25@severity=0.0": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "bm25@severity=0.25": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "bm25@severity=0.5": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "bm25@severity=0.75": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "graph_expansion@severity=0.0": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "graph_expansion@severity=0.25": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "graph_expansion@severity=0.5": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "graph_expansion@severity=0.75": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "fixed_hybrid@severity=0.0": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "fixed_hybrid@severity=0.25": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "fixed_hybrid@severity=0.5": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "fixed_hybrid@severity=0.75": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "diagnostic_gate@severity=0.0": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "diagnostic_gate@severity=0.25": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "diagnostic_gate@severity=0.5": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  },
+  "diagnostic_gate@severity=0.75": {
+    "mean_hit_at_3": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n_observations": 25
+  }
+}

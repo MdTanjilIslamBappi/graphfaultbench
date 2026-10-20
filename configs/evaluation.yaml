@@ -1,0 +1,12 @@
+# Fixed seeds, budgets and splits for the shared evaluation framework.
+# This file governs ONLY the framework-validation run on synthetic fixtures
+# (experiments/pilot_a/run_framework_validation.py). It is not yet wired to
+# any real competition or Loc-Bench data — see research/decision_log.md for
+# why the actual Candidate-A pilot still needs real repository graphs.
+
+seeds: [1, 2, 3, 4, 5]
+severities: [0.0, 0.25, 0.5, 0.75]
+k_values: [1, 3, 5]
+primary_metric: "hit_at_3"   # pre-registered for the synthetic framework-validation run only
+bootstrap_resamples: 2000
+bootstrap_alpha: 0.05

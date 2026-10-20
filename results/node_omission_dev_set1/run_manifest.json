@@ -1,0 +1,42 @@
+{
+  "dataset_sha256": "8df0833c2c1276c5837aab923d489ab97d7654529abe759d0f59242c4978a662",
+  "config": {
+    "repos": [
+      "python/mypy",
+      "dask/dask",
+      "PrefectHQ/prefect"
+    ],
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "severities": [
+      0.0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "corruption_operators": [
+      "missing_edges",
+      "high_centrality_edges",
+      "stale_symbol_refs"
+    ],
+    "k_values": [
+      1,
+      3,
+      5
+    ],
+    "primary_metric": "hit_at_5",
+    "dev_fraction": 0.2,
+    "bootstrap_resamples": 2000,
+    "alpha": 0.05,
+    "loc_bench_parquet": "manifests/raw_data/loc_bench_v1_test.parquet"
+  },
+  "n_dev_tasks_scored": 7,
+  "n_eval_tasks_not_touched": 40,
+  "n_excluded_tasks": 0,
+  "total_wall_seconds": 312.7735480210031,
+  "peak_rss_kb": 813756,
+  "n_raw_rows": 84
+}

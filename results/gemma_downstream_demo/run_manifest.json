@@ -1,0 +1,45 @@
+{
+  "config": {
+    "demo_sample_seed": 20261020,
+    "tasks_per_repo": 5,
+    "pool_size": 15,
+    "corruption_seed": 1,
+    "severities": [
+      0.0,
+      0.5
+    ],
+    "primary_metric": "hit_at_5",
+    "model": "google/gemma-4 E2B, Q4_0 GGUF (QAT), local CPU inference via llama-cpp-python",
+    "generation_params": {
+      "temperature": 0.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "max_tokens": 200
+    }
+  },
+  "sample_task_ids": {
+    "python/mypy": [
+      "python__mypy-18091",
+      "python__mypy-18141",
+      "python__mypy-18163",
+      "python__mypy-18197",
+      "python__mypy-18293"
+    ],
+    "dask/dask": [
+      "dask__dask-10750",
+      "dask__dask-11354",
+      "dask__dask-11393",
+      "dask__dask-11479",
+      "dask__dask-11605"
+    ],
+    "PrefectHQ/prefect": [
+      "PrefectHQ__prefect-12045",
+      "PrefectHQ__prefect-13366",
+      "PrefectHQ__prefect-13756",
+      "PrefectHQ__prefect-14693",
+      "PrefectHQ__prefect-16145"
+    ]
+  },
+  "n_rows": 60,
+  "total_wall_seconds": 2302.2043961580002
+}
