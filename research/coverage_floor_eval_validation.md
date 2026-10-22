@@ -20,14 +20,14 @@ document has been invented, extrapolated, or carried over from a prior
 projection.
 
 **Regenerated 2026-10-18/19 with the fixed graph builder** (the
-duplicate-node-id bug fixed 2026-10-17 — see `research/decision_log.md`),
+duplicate-node-id bug fixed 2026-10-17 — see the internal decision log (withheld from this release)),
 replacing the original 2026-10-17 run in place. Configuration,
 repositories, commits (from cache) and seeds are identical to the pre-fix
 run; only the graph-construction code differs. **This regeneration changed
 more than cosmetic numbers: at severity 0.75, the point-estimate direction
 between `fixed_hybrid` and `bm25`/`diagnostic_gate` reverses from the
 pre-fix run (§5).** The pre-fix numbers and a full account of what changed
-are preserved in git history and in `research/decision_log.md`'s
+are preserved in git history and in the internal decision log's (withheld from this release)
 2026-10-18/19 regeneration entry.
 
 ## 0. The question this document answers
@@ -175,7 +175,7 @@ slightly from the pre-fix run's 0.4867), marginally higher than Phase 3's
 regenerated dev-split maximum of 0.4726 but still below the ceiling.
 `anchor_confidence` remains saturated at exactly 1.0 in every row at every
 severity, reinforcing the same concern raised in
-`research/novelty_assessment.md` and `research/node_removal_operator.md`
+the superseded Phase 1 novelty assessment (withheld from this release) and `research/node_removal_operator.md`
 about this signal's normalisation saturating before it can contribute to
 `choose_policy`'s branching at this corpus scale.
 
@@ -419,7 +419,7 @@ constraint that this phase validates, not tunes, the existing defaults.
   version of this document reported 67/53/77 duplicate `node_id` values on
   one spot-checked commit per repository (0.50–0.71% of each graph's node
   objects) — the same phenomenon Phase 3 flagged. That bug is now fixed
-  (`research/decision_log.md`, 2026-10-17 entry), and this document was
+  (the internal decision log (withheld from this release), 2026-10-17 entry), and this document was
   regenerated with the fix applied: §3's exact `node_coverage` values and
   §4/§5's shifted gold-visible samples and accuracy numbers are direct
   consequences of it. This is the single largest-impact limitation this

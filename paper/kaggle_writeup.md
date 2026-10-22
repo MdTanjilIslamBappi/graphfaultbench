@@ -40,7 +40,7 @@ I filter Loc-Bench V1 rows to six repositories and group them by commit; for eac
 
 ### Experimental setup
 
-I ran the pilot on six public repositories — `python/mypy`, `dask/dask`, `PrefectHQ/prefect`, `numpy/numpy`, `scipy/scipy`, `aio-libs/aiohttp` — at 58 commit-pinned snapshots, widening this from an initial three-repository run specifically to narrow the clustered-bootstrap confidence intervals below, seeds `[1,2,3]`, severities `[0.0, 0.25, 0.5, 0.75]`. I pre-registered the full configuration and appended the three added repositories unchanged. No GPU, fine-tuning or paid API calls at any stage; I split the full pilot (8,100 scoring rows) across two CPU machines, taking 69 and 53 minutes respectively, peak memory 1.21 GiB. One task, `numpy__numpy-27598`, failed gold-label resolution and I excluded it — the only such exclusion across 65 attempts.
+I ran the pilot on six public repositories — `python/mypy`, `dask/dask`, `PrefectHQ/prefect`, `numpy/numpy`, `scipy/scipy`, `aio-libs/aiohttp` — at 58 commit-pinned snapshots, widening this from an initial three-repository run specifically to narrow the clustered-bootstrap confidence intervals below, seeds `[1,2,3]`, severities `[0.0, 0.25, 0.5, 0.75]`. I pre-registered the full configuration and appended the three added repositories unchanged. No GPU, fine-tuning or paid API calls at any stage; I split the full pilot (8,100 scoring rows) across two CPU machines, taking 69 and 53 minutes respectively, peak memory 1.21 GiB. One task failed gold-label resolution and I excluded it — the only such exclusion across 65 attempts.
 
 ### Results
 

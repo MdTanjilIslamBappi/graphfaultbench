@@ -16,6 +16,6 @@ manifests/repo_cache/
 manifests/repo_cache
 
 # Copyrighted commercial reference material (Cambridge IELTS grammar book,
-# docs/human_actions.md item 6) — used locally as a style reference, never
+# the internal action list (withheld from this release) item 6) — used locally as a style reference, never
 # redistributed via this repository.
 references/english/

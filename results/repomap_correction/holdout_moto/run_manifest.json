@@ -1,0 +1,5 @@
+{
+  "config": "configs/holdout_moto.yaml",
+  "n_rows": 24,
+  "wall_seconds": 96.67913118300203
+}

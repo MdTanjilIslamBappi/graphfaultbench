@@ -34,7 +34,7 @@ both visible directly in the pilot's own data:
 - Two of `DiagnosticGate`'s three diagnostic signals (`node_coverage`,
   `anchor_confidence`) are structurally insensitive to this class of
   corruption and were observed at exactly 1.0 throughout the pilot — see
-  `research/novelty_assessment.md` §2 for the full mechanistic account.
+  the superseded Phase 1 novelty assessment (withheld from this release) §2 for the full mechanistic account.
 
 A node-removal or text-corruption operator was scoped but not implemented
 in this pilot; its absence is the direct cause of the gate's observed
@@ -83,7 +83,7 @@ of the query.
 The three repositories (`python/mypy`, `dask/dask`, `PrefectHQ/prefect`)
 were selected from Loc-Bench V1's 165 repositories for having
 fully-populated gold labels and a manageable per-commit tarball size (see
-`research/decision_log.md`), not by random or stratified sampling. The 40
+the internal decision log (withheld from this release)), not by random or stratified sampling. The 40
 evaluation tasks and 0 exclusions reported in §2 of
 `reports/pilot_results.md` are a property of these three repositories and
 should not be assumed to generalise to the full 165-repository, 560-row
@@ -95,7 +95,7 @@ Loc-Bench V1 population without further sampling.
 held out as a dev split and excluded from every metric reported in
 `reports/pilot_results.md`. This pilot does not tune any threshold on
 them; they exist for future threshold-tuning work (e.g. the
-`isolated_ceiling` revision discussed in `research/novelty_assessment.md`
+`isolated_ceiling` revision discussed in the superseded Phase 1 novelty assessment (withheld from this release)
 §3) and are reported as a count (7 tasks) for transparency, not used.
 
 ## 8. `repomap_rank` is a reimplementation, not the published tool
@@ -132,10 +132,10 @@ stub signatures; rarer cause: a genuine same-name redefinition later in a
 file), affecting roughly 0.2–0.7% of nodes per commit. This was first
 noticed in Phase 3 (`research/node_removal_operator.md` §7) and confirmed
 again in Phase 4. It was fixed on 2026-10-17 — see
-`research/decision_log.md`'s entry of that date for the root-cause
+the internal decision log's (withheld from this release) entry of that date for the root-cause
 investigation and the fix. `results/pilot/`, `results/node_omission_dev/`
 and `results/coverage_floor_eval/` were then regenerated with the fix
-applied on 2026-10-18/19 (`research/decision_log.md`'s regeneration
+applied on 2026-10-18/19 (the internal decision log's (withheld from this release) regeneration
 entry), replacing the original, pre-fix numbers in place; the pre-fix
 numbers remain available in git history. Phase 2's and Phase 3's headline
 comparative findings were confirmed unchanged by the regeneration

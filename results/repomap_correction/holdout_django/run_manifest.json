@@ -1,0 +1,5 @@
+{
+  "config": "configs/holdout_django.yaml",
+  "n_rows": 140,
+  "wall_seconds": 810.9136325790023
+}

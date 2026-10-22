@@ -2,7 +2,7 @@
 `paper/manuscript.md` section 7 ("a learned or continuously-weighted
 combination of the three diagnostic signals, rather than a single
 binary-threshold gate"), built in response to the adversarial-challenge
-finding in `research/kaggle_judging_simulation.md` section 2 item 4: a
+finding in an internal judging-simulation note (withheld from this release) section 2 item 4: a
 sharp reviewer would ask why the proposed fix was never tried, given time
 remained before the deadline.
 

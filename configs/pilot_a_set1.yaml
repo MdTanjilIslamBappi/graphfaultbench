@@ -1,6 +1,6 @@
 # Split-run part 1 of configs/pilot_a.yaml's 6-repo sample, run on the
 # local machine while part 2 (configs/pilot_a_set2.yaml) ran in parallel
-# on londonpaid — see research/decision_log.md's repo-widening entry for
+# on a second machine — see the internal decision log's (withheld from this release) repo-widening entry for
 # why this is split and how the two parts' raw rows are merged afterwards
 # (concatenation + a single recomputed bootstrap, not two separate
 # analyses). Every field below except `repos` is identical to

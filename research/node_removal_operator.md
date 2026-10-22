@@ -8,16 +8,16 @@ document has been invented, extrapolated, or carried over from a prior
 projection.
 
 **Regenerated 2026-10-18/19 with the fixed graph builder** (the
-duplicate-node-id bug fixed 2026-10-17 — see `research/decision_log.md`),
+duplicate-node-id bug fixed 2026-10-17 — see the internal decision log (withheld from this release)),
 replacing the original 2026-10-17 run in place. Pre-fix numbers are
 preserved in git history and summarised, with what changed, in
-`research/decision_log.md`'s 2026-10-18 regeneration entry. Configuration,
+the internal decision log's (withheld from this release) 2026-10-18 regeneration entry. Configuration,
 repositories, commits (from cache) and seeds are identical to the pre-fix
 run; only the graph-construction code differs.
 
-This document is the scoped follow-up authorised in `research/go_no_go.md`
+This document is the scoped follow-up authorised in the internal go/no-go record (withheld from this release)
 §4 item 2 and described as not-yet-attempted in
-`research/novelty_assessment.md` §3: run the existing (but previously
+the superseded Phase 1 novelty assessment (withheld from this release) §3: run the existing (but previously
 unwired) `node_omission` operator on real data, and use the resulting
 empirical signal distribution to inform — not blindly apply — a judgement
 about `DiagnosticGate`'s `isolated_ceiling` threshold.
@@ -124,7 +124,7 @@ negative/null result against the specific question asked: under
 `anchor_confidence` remains saturated at exactly 1.0 in all 84 rows, at
 every severity including 0.75 (where a median of 75% of nodes are hidden).
 This reinforces, under a different corruption type, the concern already
-raised in `research/novelty_assessment.md` §3 point 3: the `/ 10.0`
+raised in the superseded Phase 1 novelty assessment (withheld from this release) §3 point 3: the `/ 10.0`
 normalisation constant in `anchor_confidence = min(1.0, top_bm25_score /
 10.0)` appears to saturate well before any corruption severity tested in
 either pilot removes enough signal to matter, which calls into question
@@ -134,7 +134,7 @@ practice on corpora of this scale.
 ## 4. `node_coverage`, not `isolated_node_rate`, is what actually changes the gate's behaviour here
 
 This is the most consequential finding of this experiment, and it reframes
-the question asked in `research/novelty_assessment.md` §3. Applying the
+the question asked in the superseded Phase 1 novelty assessment (withheld from this release) §3. Applying the
 real, **unmodified** `DiagnosticGate.choose_policy` (default thresholds:
 `coverage_floor = 0.6`, `isolated_ceiling = 0.5`, `anchor_floor = 0.1`) to
 each row's measured diagnostics:
@@ -152,7 +152,7 @@ differentiate under `node_omission`: 42/84 rows (50%) select `hybrid` and
 down to the exact row count. The switch happens because `node_coverage`
 drops below `coverage_floor = 0.6` at severity ≥ 0.5 (mean 0.500 at
 severity 0.5, 0.250 at severity 0.75) — exactly the condition
-`node_coverage` was designed to detect, per `research/novelty_assessment.md`
+`node_coverage` was designed to detect, per the superseded Phase 1 novelty assessment (withheld from this release)
 §2's observation that this signal is structurally insensitive to edge-only
 corruption but should respond to node-level corruption. `isolated_node_rate`
 plays no role in this particular switch, because `node_coverage` already
@@ -253,7 +253,7 @@ decision, and is explicitly not undertaken here.
   the same `node_id` (24–45 duplicate ids per commit across the 7
   dev-task commits, roughly 0.2–0.4% of each graph's node count), caused
   by `@typing.overload` stubs and occasional genuine same-name
-  redefinitions. That bug is now fixed (`research/decision_log.md`,
+  redefinitions. That bug is now fixed (the internal decision log (withheld from this release),
   2026-10-17 entry) and this document's numbers were regenerated with the
   fix applied — `node_coverage`'s now-exact 1 − severity values (§3) are a
   direct, visible consequence of the fix removing the small amount of

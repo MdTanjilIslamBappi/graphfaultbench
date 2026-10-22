@@ -1,0 +1,5 @@
+{
+  "config": "configs/holdout_sqlglot.yaml",
+  "n_rows": 60,
+  "wall_seconds": 35.57736381000723
+}

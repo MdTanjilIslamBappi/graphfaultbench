@@ -2,8 +2,8 @@
 scored only against the dev split, to inform (not blindly apply) a
 recommendation about `DiagnosticGate`'s `isolated_ceiling` threshold.
 
-Background (see `research/novelty_assessment.md` §2-3 and
-`research/go_no_go.md` §4 item 2): the Phase 2 pilot
+Background (see the superseded Phase 1 novelty assessment (withheld from this release) §2-3 and
+the internal go/no-go record (withheld from this release) §4 item 2): the Phase 2 pilot
 (`experiments/pilot_a/run_real_pilot.py`) used three edge-only corruption
 operators. Two of `DiagnosticGate`'s three diagnostic signals
 (`node_coverage`, `anchor_confidence`) are structurally insensitive to

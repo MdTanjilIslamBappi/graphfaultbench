@@ -1,0 +1,78 @@
+{
+ "n_rows_rescored": 108,
+ "n_stored": 108,
+ "mismatches_vs_stored": {
+  "gem5": 0,
+  "fh5": 0,
+  "gem1": 0,
+  "pool": 0,
+  "nvalid": 0
+ },
+ "valid_id_histogram": {
+  "5": 83,
+  "4": 25
+ },
+ "mean_valid_ids": 4.768518518518518,
+ "counts": {
+  "gem5": 43,
+  "fh5": 36,
+  "gem1": 35,
+  "fh1": 22,
+  "pool_has_gold": 45,
+  "gem5_no_fallback": 43
+ },
+ "discordant_calls": {
+  "gem_only": 7,
+  "fh_only": 0
+ },
+ "wellformed_5of5": {
+  "n": 83,
+  "gem5": 31,
+  "fh5": 24,
+  "gem1": 23,
+  "fh1": 10,
+  "pool_has_gold": 33,
+  "gem5_no_fallback": 31
+ },
+ "malformed_lt5": {
+  "n": 25,
+  "gem5": 12,
+  "fh5": 12,
+  "gem1": 12,
+  "fh1": 12,
+  "pool_has_gold": 12,
+  "gem5_no_fallback": 12
+ },
+ "paired_hit5_call_unit_repo_cluster": [
+  0.06481481481481481,
+  0.03571428571428571,
+  0.0967741935483871
+ ],
+ "paired_hit1_call_unit_repo_cluster": [
+  0.12037037037037036,
+  0.02631578947368421,
+  0.2692307692307692
+ ],
+ "paired_hit5_task_unit_repo_cluster": [
+  0.06481481481481481,
+  0.03571428571428571,
+  0.0967741935483871
+ ],
+ "tasks_gem_better_fh_better_tie": [
+  6,
+  0,
+  48
+ ],
+ "pool_has_gold_subset": {
+  "n": 45,
+  "gem5": 43,
+  "fh5": 36,
+  "paired": [
+   0.15555555555555556,
+   0.08823529411764706,
+   0.2631578947368421
+  ]
+ },
+ "note": "random-5-of-15 reference is 1/3 of pool_has_gold calls if one gold id is in the pool",
+ "random_ref_hit5_if_single_gold_in_pool": 15.0
+}

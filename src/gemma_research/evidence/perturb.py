@@ -5,7 +5,7 @@ Every operator takes a `CodeGraph` and a seed and returns a new
 is reproducible and auditable. Operators never touch node text/answer
 labels — only the edge set (and, for node omission, which nodes are
 visible to retrieval) — matching the no-leakage requirement in
-`Gemma4_Research_Contingency_v2.md` section "Data and experimental protocol".
+an internal planning document (withheld from this release) section "Data and experimental protocol".
 """
 
 from __future__ import annotations

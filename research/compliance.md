@@ -57,7 +57,7 @@ LLMs for the written part. Purely LLM generated 'slop' will not score well. Howe
 used, LLMs can improve the writing quality and clarity."* This is a permission with a *quality*
 caveat (under the Quality/Clarity rubric criteria), not a disclosure mandate — the host did not
 ask for or require a disclosure statement. **There is no disclosure requirement to comply with.**
-See `docs/human_actions.md` item 8 (updated) for what this means for the three candidate policies
+See the internal action list (withheld from this release) item 8 (updated) for what this means for the three candidate policies
 that were on hold pending this check.
 
 **Other facts surfaced, not previously recorded:**
@@ -165,7 +165,7 @@ Sources (confirmed live by the user):
 - https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/overview/submission-requirements
 - https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules
 
-This resolves `docs/human_actions.md` item #1 (deadline/prize/word-limit/writeup-requirement part).
+This resolves the internal action list (withheld from this release) item #1 (deadline/prize/word-limit/writeup-requirement part).
 It does **not** resolve prize *eligibility* (residency, account standing, sanctions, employer
 rules), the detailed judging rubric's exact category weights, or team/submission-count limits —
 those remain open below.
@@ -178,7 +178,7 @@ those remain open below.
 | 2 | Team size, submissions-per-day, and max final-submission/Writeup limits | Read directly, Rules tab + host reply, 2026-10-18 | **RESOLVED** — team ≤5; 5 Submissions/day; 2 Final Submissions; max 2 Writeups per team for the Paper Track (host reply, discussion #743255) — matches the 2026-10-17 secondary source exactly |
 | 3 | Bangladesh residency / age / employer / sanctions eligibility | Read directly, Rules tab Foundational Rules §3.1, 2026-10-18 | **General criteria RESOLVED** (18+, not a resident of Crimea/DNR/LNR/Cuba/Iran/North Korea, not sanctioned; Bangladesh not excluded) — personal self-certification against this text (account standing, employer policy) remains explicitly the user's own responsibility, unchanged |
 | 4 | Loc-Bench V1 (Hugging Face `czlll/Loc-Bench_V1`) license and redistribution terms | Read the dataset card directly | **CONFIRMED the card states no explicit license, only a citation request** — treat as "citation-only, do not redistribute the underlying patches/problem statements beyond fair use for research" until further confirmed |
-| 5 | Whether the Paper Track requires AI-assistance disclosure | Read directly, Rules tab + Overview tab + Discussion #745712 host reply, 2026-10-18 | **RESOLVED — no disclosure requirement exists.** Host (Elan Markowitz) confirmed AI coding/writing assistance is permitted; the only caution is a quality one (avoid "LLM slop"), not a disclosure mandate. See `docs/human_actions.md` item 8 for the policy decision this now unblocks. |
+| 5 | Whether the Paper Track requires AI-assistance disclosure | Read directly, Rules tab + Overview tab + Discussion #745712 host reply, 2026-10-18 | **RESOLVED — no disclosure requirement exists.** Host (Elan Markowitz) confirmed AI coding/writing assistance is permitted; the only caution is a quality one (avoid "LLM slop"), not a disclosure mandate. See the internal action list (withheld from this release) item 8 for the policy decision this now unblocks. |
 
 ## ResearchGate — similar work and publishing feasibility (informational, checked 2026-10-18)
 
@@ -196,7 +196,7 @@ related work — LocAgent, ARISE, Agent Retrieval Bench, AgentNoiseBench, RepoAt
 mirrored on ResearchGate via their arXiv DOIs). **None found that corrupts a code graph deliberately
 to measure retrieval degradation and an adaptive-fallback policy's response, which is this project's
 specific framing** — consistent with, and now an additional independent check on, the novelty
-framing already in `research/novelty_assessment.md` and the manuscript. This is a search-based
+framing already in the superseded Phase 1 novelty assessment (withheld from this release) and the manuscript. This is a search-based
 check, not a guarantee of novelty; it does not replace a human's own judgement before any
 publication step.
 
@@ -270,7 +270,7 @@ Per this project's governing research-process rules, unchanged and reaffirmed he
 - Assert legal prize eligibility.
 - Purchase compute, publish a public GitHub repo, release licensed datasets, upload a public Kaggle
   notebook, or click **Submit**.
-- Claim novelty beyond what `research/novelty_matrix.csv` actually supports.
+- Claim novelty beyond what the superseded Phase 1 novelty matrix (withheld from this release) actually supports.
 - Edit result tables or invent benchmark numbers.
 - Claim a Kaggle award will be earned.
 - Leak competition credentials, private datasets, or hidden evaluation material.
@@ -278,9 +278,9 @@ Per this project's governing research-process rules, unchanged and reaffirmed he
 ## Correction note
 
 The two prior planning documents did not previously flag the possibility of fabricated or
-unverifiable literature citations within themselves. `research/decision_log.md` (2026-10-16 entry)
+unverifiable literature citations within themselves. the internal decision log (withheld from this release) (2026-10-16 entry)
 documents that two of the six "mandatory comparison" papers listed in
-`Gemma4_Research_Contingency_v2.md` ("StateTape", "Echo") could not be verified to exist. This file
+an internal planning document (withheld from this release) ("StateTape", "Echo") could not be verified to exist. This file
 is updated to additionally flag: **do not carry forward any citation from the prior planning
 documents into `paper/kaggle_writeup.md` without first confirming it independently via
-`research/novelty_matrix.csv` or a fresh check.**
+the superseded Phase 1 novelty matrix (withheld from this release) or a fresh check.**

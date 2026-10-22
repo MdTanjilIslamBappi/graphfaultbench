@@ -1,0 +1,86 @@
+{
+  "pilot": {
+    "n_invocations": 486,
+    "by_severity": {
+      "0.25": {
+        "n": 162,
+        "hit5_original": 0.2839506172839506,
+        "hit5_corrected": 0.29012345679012347,
+        "mrr_original": 0.24086718613549735,
+        "mrr_corrected": 0.2260967621898455,
+        "invocations_with_dangling_in_top5": 60,
+        "invocations_with_dangling_in_top10": 138,
+        "mean_dangling_in_top5": 0.41975308641975306,
+        "corrected_dangling_in_top10": 0,
+        "hit5_gained_by_correction": 1,
+        "hit5_lost_by_correction": 0,
+        "top5_set_changed": 113
+      },
+      "0.5": {
+        "n": 162,
+        "hit5_original": 0.2839506172839506,
+        "hit5_corrected": 0.29012345679012347,
+        "mrr_original": 0.23768680843917706,
+        "mrr_corrected": 0.23923208376814895,
+        "invocations_with_dangling_in_top5": 130,
+        "invocations_with_dangling_in_top10": 160,
+        "mean_dangling_in_top5": 1.0617283950617284,
+        "corrected_dangling_in_top10": 0,
+        "hit5_gained_by_correction": 1,
+        "hit5_lost_by_correction": 0,
+        "top5_set_changed": 147
+      },
+      "0.75": {
+        "n": 162,
+        "hit5_original": 0.2839506172839506,
+        "hit5_corrected": 0.2962962962962963,
+        "mrr_original": 0.23861008994880795,
+        "mrr_corrected": 0.23918068744344595,
+        "invocations_with_dangling_in_top5": 158,
+        "invocations_with_dangling_in_top10": 162,
+        "mean_dangling_in_top5": 1.6728395061728396,
+        "corrected_dangling_in_top10": 0,
+        "hit5_gained_by_correction": 3,
+        "hit5_lost_by_correction": 1,
+        "top5_set_changed": 160
+      }
+    },
+    "original_rerun_mismatches_vs_stored": 0,
+    "missing_from_stored": 0
+  },
+  "holdout": {
+    "n_invocations": 190,
+    "by_severity": {
+      "0.5": {
+        "n": 95,
+        "hit5_original": 0.2,
+        "hit5_corrected": 0.2,
+        "mrr_original": 0.1427310983186825,
+        "mrr_corrected": 0.14293846630162865,
+        "invocations_with_dangling_in_top5": 74,
+        "invocations_with_dangling_in_top10": 94,
+        "mean_dangling_in_top5": 1.105263157894737,
+        "corrected_dangling_in_top10": 0,
+        "hit5_gained_by_correction": 1,
+        "hit5_lost_by_correction": 1,
+        "top5_set_changed": 87
+      },
+      "0.75": {
+        "n": 95,
+        "hit5_original": 0.2,
+        "hit5_corrected": 0.21052631578947367,
+        "mrr_original": 0.14707506688148828,
+        "mrr_corrected": 0.14759131401170203,
+        "invocations_with_dangling_in_top5": 92,
+        "invocations_with_dangling_in_top10": 95,
+        "mean_dangling_in_top5": 1.6526315789473685,
+        "corrected_dangling_in_top10": 0,
+        "hit5_gained_by_correction": 1,
+        "hit5_lost_by_correction": 0,
+        "top5_set_changed": 95
+      }
+    },
+    "original_rerun_mismatches_vs_stored": 0,
+    "missing_from_stored": 0
+  }
+}

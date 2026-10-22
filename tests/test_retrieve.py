@@ -145,3 +145,22 @@ def test_weighted_gate_ranks_on_degraded_graph_without_abstaining():
     # sentinel), not just the weighted path — both are correct outcomes.
     assert math.isnan(weight) or 0.5 <= weight <= 1.0
     assert len(ranking) == len(degraded.nodes)
+
+
+def test_repomap_dangling_ids_enter_ranking_unless_excluded():
+    graph = _repo_graph()
+    dangling = CodeGraph(
+        repo="toy",
+        commit="abc",
+        nodes=graph.nodes,
+        edges=(
+            Edge("db.query", "__DANGLING__:db.connect", "calls"),
+            Edge("auth.login", "__DANGLING__:util.hash", "calls"),
+        ),
+    )
+    q = "database connection issue"
+    original = [c.node_id for c in repomap_rank(dangling, q, anchor_top_k=1)]
+    assert any(i.startswith("__DANGLING__:") for i in original)
+    fixed = [c.node_id for c in repomap_rank(dangling, q, anchor_top_k=1, exclude_unknown_nodes=True)]
+    assert not any(i.startswith("__DANGLING__:") for i in fixed)
+    assert set(fixed) == {n.node_id for n in graph.nodes}

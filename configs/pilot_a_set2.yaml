@@ -1,6 +1,6 @@
 # Split-run part 2 of configs/pilot_a.yaml's 6-repo sample — the three
-# new repos added for the repo-widening (research/go_no_go.md section 4
-# item 3), run on londonpaid while part 1 (configs/pilot_a_set1.yaml) ran
+# new repos added for the repo-widening (the internal go/no-go record (withheld from this release) section 4
+# item 3), run on a second machine while part 1 (configs/pilot_a_set1.yaml) ran
 # in parallel on the local machine. See configs/pilot_a_set1.yaml's header
 # comment for the merge approach. Every field below except `repos` is
 # identical to configs/pilot_a.yaml.

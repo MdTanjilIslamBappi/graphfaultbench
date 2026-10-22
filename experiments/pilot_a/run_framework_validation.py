@@ -10,7 +10,7 @@ IMPORTANT — what this is and is not:
     Loc-Bench data. Its only purpose is to prove the harness (perturbation
     manifests, baselines, diagnostic gate, metrics, bootstrap CI) works
     end-to-end and is reproducible, before spending effort wiring it to a
-    real repository graph. See research/decision_log.md, "Open blockers".
+    real repository graph. See the internal decision log (withheld from this release), "Open blockers".
 
 Usage: `python experiments/pilot_a/run_framework_validation.py`
 """

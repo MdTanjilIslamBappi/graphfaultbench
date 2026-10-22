@@ -74,3 +74,11 @@ def test_gemma_rerank_candidate_pool_respects_pool_size():
     llm = _FakeLlm("auth.login")
     result = gemma_rerank(llm, graph, "authentication login is broken", pool_size=2)
     assert len(result.candidate_pool) == 2
+
+
+def test_parse_indexed_output_drops_invalid_and_repeats():
+    from gemma_research.evidence.gemma_rerank import parse_indexed_output
+
+    pool = tuple(f"n{i}" for i in range(1, 16))
+    assert parse_indexed_output("3\n3\n16\n0\nx\n7\n1\n2\n9\n4", pool) == ["n3", "n7", "n1", "n2", "n9"]
+    assert parse_indexed_output("", pool) == []

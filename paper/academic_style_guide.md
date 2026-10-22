@@ -78,7 +78,7 @@ addition:
   file's header comment when entries change.
 - A citation that cannot be independently verified is never added "because
   an earlier document already used it" — this project's own history
-  (`research/novelty_matrix.csv`) contains two citations, "StateTape" and
+  (the superseded Phase 1 novelty matrix (withheld from this release)) contains two citations, "StateTape" and
   "Echo", that were carried from an earlier planning document and
   subsequently found to be likely fabricated. `references.bib`'s header
   records this explicitly as a standing warning; do not remove that note.
@@ -86,7 +86,7 @@ addition:
   primary source (as it did on 2026-10-17 — `arxiv.org` is not reachable
   from this environment's egress proxy), a title/ID match from search is
   not treated as equivalent to a primary-source author-list check; the gap
-  is recorded in `paper/editorial_review.md` rather than silently assumed
+  is recorded in the internal editorial review (withheld from this release) rather than silently assumed
   closed.
 
 ## 5. Numbers, tables and figures
@@ -100,9 +100,9 @@ addition:
   provides one.
 - A changed number is never a copy-edit. If a later experiment regenerates
   results (for example, re-running Phases 2–4 with the fixed graph
-  builder — see `research/decision_log.md`'s 2026-10-17 entry), the
+  builder — see the internal decision log's (withheld from this release) 2026-10-17 entry), the
   manuscript's numbers are updated only as part of that analysis change,
-  with the change recorded in `research/decision_log.md`, never silently
+  with the change recorded in the internal decision log (withheld from this release), never silently
   adjusted during a language pass.
 
 ## 6. Structure

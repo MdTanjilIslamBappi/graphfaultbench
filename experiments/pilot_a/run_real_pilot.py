@@ -2,7 +2,7 @@
 against real, statically-built repository call/import graphs.
 
 This is the 21-October decision-gate pilot run referenced throughout
-`STATUS.md` / `research/decision_log.md`. It is intentionally scoped (3
+the internal status log (withheld from this release) / the internal decision log (withheld from this release). It is intentionally scoped (3
 repos, ~40+ evaluable issues, 3 seeds, 3 corruption operators x 3 non-zero
 severities + a zero-severity healthy control, 5 retrieval baselines) rather
 than exhaustive — the goal is a real, reproducible signal to decide on, not
@@ -36,7 +36,12 @@ from gemma_research.data.graph_builder import build_graph_from_source
 from gemma_research.data.loc_bench_tasks import build_tasks_for_commit, is_dev_split, load_loc_bench
 from gemma_research.data.repo_source import fetch_repo_snapshot
 from gemma_research.data.types import CodeGraph, LocalizationTask
-from gemma_research.evidence.perturb import high_centrality_edges, missing_edges, stale_symbol_refs
+from gemma_research.evidence.perturb import (
+    high_centrality_edges,
+    missing_edges,
+    stale_rewire,
+    stale_symbol_refs,
+)
 from gemma_research.evidence.retrieve import (
     BM25Index,
     DiagnosticGate,
@@ -45,7 +50,12 @@ from gemma_research.evidence.retrieve import (
     graph_expansion_rank,
     repomap_rank,
 )
-from gemma_research.metrics.scoring import bootstrap_ci_clustered, hit_at_k, reciprocal_rank, strict_acc_at_k
+from gemma_research.metrics.scoring import (
+    bootstrap_ci_clustered,
+    hit_at_k,
+    reciprocal_rank,
+    strict_acc_at_k,
+)
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -53,6 +63,7 @@ CORRUPTION_OPS = {
     "missing_edges": missing_edges,
     "high_centrality_edges": high_centrality_edges,
     "stale_symbol_refs": stale_symbol_refs,
+    "stale_rewire": stale_rewire,
 }
 
 METHODS = {
@@ -216,7 +227,7 @@ def run(config_path: Path) -> dict:
 
 if __name__ == "__main__":
     # Optional CLI overrides, used to split this pilot's repo set across two
-    # machines running in parallel (see research/decision_log.md's repo-
+    # machines running in parallel (see the internal decision log's (withheld from this release) repo-
     # widening entry) and merge the raw rows afterwards; with no arguments
     # this is identical to the original single-machine, single-config run.
     config_rel = sys.argv[1] if len(sys.argv) > 1 else "configs/pilot_a.yaml"

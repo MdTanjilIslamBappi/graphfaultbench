@@ -1,7 +1,7 @@
 # Fixed seeds, budgets and splits for the shared evaluation framework.
 # This file governs ONLY the framework-validation run on synthetic fixtures
 # (experiments/pilot_a/run_framework_validation.py). It is not yet wired to
-# any real competition or Loc-Bench data — see research/decision_log.md for
+# any real competition or Loc-Bench data — see the internal decision log (withheld from this release) for
 # why the actual Candidate-A pilot still needs real repository graphs.
 
 seeds: [1, 2, 3, 4, 5]

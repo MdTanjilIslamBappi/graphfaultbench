@@ -1,0 +1,532 @@
+{
+  "limit": "metrics.csv stores no rankings; pseudo-node presence in top-k is not observable here.",
+  "sets": {
+    "pilot": {
+      "stale_symbol_refs@0.25": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.284,
+        "tasks_lost": 1,
+        "tasks_gained": 2,
+        "mean_graph_edges": 41235,
+        "affected_edges_upper_bound_pseudo_nodes": 10309
+      },
+      "stale_symbol_refs@0.5": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.284,
+        "tasks_lost": 1,
+        "tasks_gained": 2,
+        "mean_graph_edges": 41235,
+        "affected_edges_upper_bound_pseudo_nodes": 20618
+      },
+      "stale_symbol_refs@0.75": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.284,
+        "tasks_lost": 1,
+        "tasks_gained": 1,
+        "mean_graph_edges": 41235,
+        "affected_edges_upper_bound_pseudo_nodes": 30926
+      },
+      "missing_edges@0.25": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.284,
+        "tasks_lost": 1,
+        "tasks_gained": 1,
+        "mean_graph_edges": 30926,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.5": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.2901,
+        "tasks_lost": 2,
+        "tasks_gained": 3,
+        "mean_graph_edges": 20618,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.75": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.2901,
+        "tasks_lost": 1,
+        "tasks_gained": 2,
+        "mean_graph_edges": 10309,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.25": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.2963,
+        "tasks_lost": 0,
+        "tasks_gained": 1,
+        "mean_graph_edges": 30926,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.5": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.2778,
+        "tasks_lost": 1,
+        "tasks_gained": 1,
+        "mean_graph_edges": 20618,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.75": {
+        "n_tasks": 54,
+        "healthy_hit5": 0.2778,
+        "corrupted_hit5": 0.2963,
+        "tasks_lost": 1,
+        "tasks_gained": 2,
+        "mean_graph_edges": 10309,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      }
+    },
+    "holdout_django": {
+      "stale_symbol_refs@0.5": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3143,
+        "tasks_lost": 1,
+        "tasks_gained": 1,
+        "mean_graph_edges": 123087,
+        "affected_edges_upper_bound_pseudo_nodes": 61543
+      },
+      "stale_symbol_refs@0.75": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3143,
+        "tasks_lost": 1,
+        "tasks_gained": 1,
+        "mean_graph_edges": 123087,
+        "affected_edges_upper_bound_pseudo_nodes": 92315
+      },
+      "missing_edges@0.5": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3429,
+        "tasks_lost": 0,
+        "tasks_gained": 1,
+        "mean_graph_edges": 61543,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.75": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3429,
+        "tasks_lost": 0,
+        "tasks_gained": 1,
+        "mean_graph_edges": 30772,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.5": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3429,
+        "tasks_lost": 0,
+        "tasks_gained": 1,
+        "mean_graph_edges": 61543,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.75": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3429,
+        "tasks_lost": 1,
+        "tasks_gained": 2,
+        "mean_graph_edges": 30772,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.5": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3429,
+        "tasks_lost": 0,
+        "tasks_gained": 1,
+        "mean_graph_edges": 123087,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.75": {
+        "n_tasks": 35,
+        "healthy_hit5": 0.3143,
+        "corrupted_hit5": 0.3429,
+        "tasks_lost": 0,
+        "tasks_gained": 1,
+        "mean_graph_edges": 123087,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      }
+    },
+    "holdout_sympy": {
+      "stale_symbol_refs@0.5": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 153802,
+        "affected_edges_upper_bound_pseudo_nodes": 76901
+      },
+      "stale_symbol_refs@0.75": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 153802,
+        "affected_edges_upper_bound_pseudo_nodes": 115351
+      },
+      "missing_edges@0.5": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 76901,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.75": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 38450,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.5": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 76901,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.75": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 38451,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.5": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 153802,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.75": {
+        "n_tasks": 7,
+        "healthy_hit5": 0.2857,
+        "corrupted_hit5": 0.2857,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 153802,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      }
+    },
+    "holdout_moto": {
+      "stale_symbol_refs@0.5": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 85470,
+        "affected_edges_upper_bound_pseudo_nodes": 42735
+      },
+      "stale_symbol_refs@0.75": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 85470,
+        "affected_edges_upper_bound_pseudo_nodes": 64103
+      },
+      "missing_edges@0.5": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 42736,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.75": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 21367,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.5": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 42736,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.75": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 21368,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.5": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 85470,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.75": {
+        "n_tasks": 6,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 85470,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      }
+    },
+    "holdout_matplotlib": {
+      "stale_symbol_refs@0.5": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39536,
+        "affected_edges_upper_bound_pseudo_nodes": 19768
+      },
+      "stale_symbol_refs@0.75": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39536,
+        "affected_edges_upper_bound_pseudo_nodes": 29652
+      },
+      "missing_edges@0.5": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 19768,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.75": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 9884,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.5": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 19768,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.75": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 9884,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.5": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39536,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.75": {
+        "n_tasks": 5,
+        "healthy_hit5": 0.6,
+        "corrupted_hit5": 0.6,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39536,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      }
+    },
+    "holdout_sqlglot": {
+      "stale_symbol_refs@0.5": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 12897,
+        "affected_edges_upper_bound_pseudo_nodes": 6448
+      },
+      "stale_symbol_refs@0.75": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 12897,
+        "affected_edges_upper_bound_pseudo_nodes": 9672
+      },
+      "missing_edges@0.5": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 6448,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.75": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 3224,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.5": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 6448,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.75": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 3224,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.5": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 12897,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.75": {
+        "n_tasks": 15,
+        "healthy_hit5": 0.2,
+        "corrupted_hit5": 0.2,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 12897,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      }
+    },
+    "holdout_ytdlp": {
+      "stale_symbol_refs@0.5": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39963,
+        "affected_edges_upper_bound_pseudo_nodes": 19982
+      },
+      "stale_symbol_refs@0.75": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39963,
+        "affected_edges_upper_bound_pseudo_nodes": 29972
+      },
+      "missing_edges@0.5": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 19982,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "missing_edges@0.75": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 9991,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.5": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 19982,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "high_centrality_edges@0.75": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 9991,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.5": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39963,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      },
+      "stale_rewire@0.75": {
+        "n_tasks": 27,
+        "healthy_hit5": 0.0,
+        "corrupted_hit5": 0.0,
+        "tasks_lost": 0,
+        "tasks_gained": 0,
+        "mean_graph_edges": 39963,
+        "affected_edges_upper_bound_pseudo_nodes": null
+      }
+    }
+  }
+}

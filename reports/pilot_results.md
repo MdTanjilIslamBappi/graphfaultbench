@@ -7,10 +7,10 @@ Status: pilot run complete. All numbers below are read directly from
 been invented, extrapolated, or carried over from a prior projection.
 
 **Regenerated 2026-10-18/19 with the fixed graph builder** (the
-duplicate-node-id bug fixed 2026-10-17 — see `research/decision_log.md`).
+duplicate-node-id bug fixed 2026-10-17 — see the internal decision log (withheld from this release)).
 This replaces the original 2026-10-16 run in place; the pre-fix numbers
 are preserved in git history (commit `34dfd64` and earlier) and in
-`research/decision_log.md`'s 2026-10-18 regeneration entry, which records
+the internal decision log's (withheld from this release) 2026-10-18 regeneration entry, which records
 exactly what changed and why. The regenerated run used identical
 configuration, repositories, commits (from cache, not re-fetched) and
 seeds — only the graph-construction code differs.
@@ -36,7 +36,7 @@ seeds — only the graph-construction code differs.
   objects were collapsed across `python/mypy`'s 6 commits, 850 across
   `dask/dask`'s 19, and 1,212 across `PrefectHQ/prefect`'s 16 — 2,464 in
   total, matching the fix's own verification sweep exactly
-  (`research/decision_log.md`, 2026-10-17 entry).
+  (the internal decision log (withheld from this release), 2026-10-17 entry).
 
 ## 2. Task counts
 
@@ -207,7 +207,7 @@ highest severity tested. The `graph_reliable` condition in
 policy is `"hybrid"` every time — which is why `diagnostic_gate` and
 `fixed_hybrid` are numerically identical throughout §4–§5. This is
 explained mechanistically, not left as an unexplained coincidence, in
-`research/novelty_assessment.md` §2.
+the superseded Phase 1 novelty assessment (withheld from this release) §2.
 
 ## 7. Resource use
 

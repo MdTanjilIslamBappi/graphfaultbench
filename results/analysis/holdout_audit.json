@@ -1,0 +1,202 @@
+{
+ "rows": 4275,
+ "tasks": 95,
+ "rows_per_task": {
+  "45": 95
+ },
+ "healthy_bm25": [
+  21.0,
+  95
+ ],
+ "healthy_fixed_hybrid": [
+  23.0,
+  95
+ ],
+ "healthy_graph_expansion": [
+  20.0,
+  95
+ ],
+ "healthy_repomap": [
+  19.0,
+  95
+ ],
+ "healthy_diagnostic_gate": [
+  23.0,
+  95
+ ],
+ "per_repo_healthy": {
+  "django/django": {
+   "n": 35,
+   "bm25": 12.0,
+   "fixed_hybrid": 14.0
+  },
+  "matplotlib/matplotlib": {
+   "n": 5,
+   "bm25": 3.0,
+   "fixed_hybrid": 3.0
+  },
+  "getmoto/moto": {
+   "n": 6,
+   "bm25": 0.0,
+   "fixed_hybrid": 0.0
+  },
+  "tobymao/sqlglot": {
+   "n": 15,
+   "bm25": 4.0,
+   "fixed_hybrid": 4.0
+  },
+  "sympy/sympy": {
+   "n": 7,
+   "bm25": 2.0,
+   "fixed_hybrid": 2.0
+  },
+  "yt-dlp/yt-dlp": {
+   "n": 27,
+   "bm25": 0.0,
+   "fixed_hybrid": 0.0
+  }
+ },
+ "gate_rows": 855,
+ "gate_ne_fh": 0,
+ "gate_policy": {
+  "hybrid": 855
+ },
+ "corrupted_counts": {
+  "bm25|missing_edges|0.5": [
+   21,
+   95
+  ],
+  "bm25|missing_edges|0.75": [
+   21,
+   95
+  ],
+  "bm25|high_centrality_edges|0.5": [
+   21,
+   95
+  ],
+  "bm25|high_centrality_edges|0.75": [
+   21,
+   95
+  ],
+  "bm25|stale_symbol_refs|0.5": [
+   21,
+   95
+  ],
+  "bm25|stale_symbol_refs|0.75": [
+   21,
+   95
+  ],
+  "bm25|stale_rewire|0.5": [
+   21,
+   95
+  ],
+  "bm25|stale_rewire|0.75": [
+   21,
+   95
+  ],
+  "fixed_hybrid|missing_edges|0.5": [
+   23,
+   95
+  ],
+  "fixed_hybrid|missing_edges|0.75": [
+   23,
+   95
+  ],
+  "fixed_hybrid|high_centrality_edges|0.5": [
+   23,
+   95
+  ],
+  "fixed_hybrid|high_centrality_edges|0.75": [
+   22,
+   95
+  ],
+  "fixed_hybrid|stale_symbol_refs|0.5": [
+   21,
+   95
+  ],
+  "fixed_hybrid|stale_symbol_refs|0.75": [
+   22,
+   95
+  ],
+  "fixed_hybrid|stale_rewire|0.5": [
+   23,
+   95
+  ],
+  "fixed_hybrid|stale_rewire|0.75": [
+   23,
+   95
+  ],
+  "graph_expansion|missing_edges|0.5": [
+   19,
+   95
+  ],
+  "graph_expansion|missing_edges|0.75": [
+   22,
+   95
+  ],
+  "graph_expansion|high_centrality_edges|0.5": [
+   21,
+   95
+  ],
+  "graph_expansion|high_centrality_edges|0.75": [
+   20,
+   95
+  ],
+  "graph_expansion|stale_symbol_refs|0.5": [
+   20,
+   95
+  ],
+  "graph_expansion|stale_symbol_refs|0.75": [
+   20,
+   95
+  ],
+  "graph_expansion|stale_rewire|0.5": [
+   18,
+   95
+  ],
+  "graph_expansion|stale_rewire|0.75": [
+   18,
+   95
+  ],
+  "repomap|missing_edges|0.5": [
+   20,
+   95
+  ],
+  "repomap|missing_edges|0.75": [
+   20,
+   95
+  ],
+  "repomap|high_centrality_edges|0.5": [
+   20,
+   95
+  ],
+  "repomap|high_centrality_edges|0.75": [
+   20,
+   95
+  ],
+  "repomap|stale_symbol_refs|0.5": [
+   19,
+   95
+  ],
+  "repomap|stale_symbol_refs|0.75": [
+   19,
+   95
+  ],
+  "repomap|stale_rewire|0.5": [
+   20,
+   95
+  ],
+  "repomap|stale_rewire|0.75": [
+   20,
+   95
+  ]
+ },
+ "repo_total_hits_bm25_fh_all_rows": {
+  "django/django": 230.0,
+  "matplotlib/matplotlib": 54.0,
+  "getmoto/moto": 0.0,
+  "tobymao/sqlglot": 72.0,
+  "sympy/sympy": 36.0,
+  "yt-dlp/yt-dlp": 0.0
+ }
+}

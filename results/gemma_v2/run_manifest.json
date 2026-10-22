@@ -1,0 +1,15 @@
+{
+ "generation_params": {
+  "temperature": 0.0,
+  "top_p": 0.95,
+  "top_k": 64,
+  "max_tokens": 200
+ },
+ "pool_size": 15,
+ "severities": [
+  0.0,
+  0.5
+ ],
+ "model_sha256": "3646b4c147cd235a44d91df1546d3b7d8e29b547dbe4e1f80856419aa455e6fd",
+ "wall_seconds_last_invocation": 3595.5684863299975
+}

@@ -1,0 +1,107 @@
+{
+ "n_calls": 108,
+ "n_tasks": 54,
+ "strata": {
+  "all": {
+   "n": 108,
+   "hit5_gemma": 0.3981,
+   "hit1_gemma": 0.3241,
+   "mrr_gemma": 0.3559,
+   "hit5_fixed_hybrid": 0.3333,
+   "hit1_fixed_hybrid": 0.2037,
+   "mrr_fixed_hybrid": 0.263,
+   "hit5_bm25": 0.3333,
+   "hit1_bm25": 0.2037,
+   "mrr_bm25": 0.261,
+   "paired_hit5_gemma_minus_fixed_hybrid": {
+    "mean": 0.0648,
+    "ci95": [
+     0.0357,
+     0.0968
+    ]
+   },
+   "paired_hit5_gemma_minus_bm25": {
+    "mean": 0.0648,
+    "ci95": [
+     0.0312,
+     0.0962
+    ]
+   },
+   "pool_recall_top15": 0.4167,
+   "parse_valid_5_of_5": 83,
+   "mean_valid_ids": 4.769,
+   "mean_latency_s": 24.58,
+   "mean_prompt_tokens": 978.9
+  },
+  "severity_0.0": {
+   "n": 54,
+   "hit5_gemma": 0.4259,
+   "hit1_gemma": 0.3519,
+   "mrr_gemma": 0.3843,
+   "hit5_fixed_hybrid": 0.3333,
+   "hit1_fixed_hybrid": 0.2037,
+   "mrr_fixed_hybrid": 0.2656,
+   "hit5_bm25": 0.3333,
+   "hit1_bm25": 0.2037,
+   "mrr_bm25": 0.261,
+   "paired_hit5_gemma_minus_fixed_hybrid": {
+    "mean": 0.0926,
+    "ci95": [
+     0.0465,
+     0.1458
+    ]
+   },
+   "paired_hit5_gemma_minus_bm25": {
+    "mean": 0.0926,
+    "ci95": [
+     0.0571,
+     0.1136
+    ]
+   },
+   "pool_recall_top15": 0.4444,
+   "parse_valid_5_of_5": 40,
+   "mean_valid_ids": 4.741,
+   "mean_latency_s": 33.98,
+   "mean_prompt_tokens": 980.9
+  },
+  "severity_0.5": {
+   "n": 54,
+   "hit5_gemma": 0.3704,
+   "hit1_gemma": 0.2963,
+   "mrr_gemma": 0.3275,
+   "hit5_fixed_hybrid": 0.3333,
+   "hit1_fixed_hybrid": 0.2037,
+   "mrr_fixed_hybrid": 0.2604,
+   "hit5_bm25": 0.3333,
+   "hit1_bm25": 0.2037,
+   "mrr_bm25": 0.261,
+   "paired_hit5_gemma_minus_fixed_hybrid": {
+    "mean": 0.037,
+    "ci95": [
+     0.0,
+     0.0789
+    ]
+   },
+   "paired_hit5_gemma_minus_bm25": {
+    "mean": 0.037,
+    "ci95": [
+     0.0,
+     0.0769
+    ]
+   },
+   "pool_recall_top15": 0.3889,
+   "parse_valid_5_of_5": 43,
+   "mean_valid_ids": 4.796,
+   "mean_latency_s": 15.17,
+   "mean_prompt_tokens": 976.8
+  }
+ },
+ "per_repo_gemma_minus_fixed_hybrid": {
+  "PrefectHQ/prefect": 0.091,
+  "aio-libs/aiohttp": 0.0,
+  "dask/dask": 0.056,
+  "numpy/numpy": 0.0,
+  "python/mypy": 0.045,
+  "scipy/scipy": 0.143
+ }
+}

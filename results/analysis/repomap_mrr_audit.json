@@ -1,0 +1,92 @@
+{
+  "holdout": {
+    "problems": [],
+    "severities": {
+      "0.5": {
+        "difference_by_original_gold_rank": {
+          "1-1": 0.0,
+          "11+": 0.000984310338835815,
+          "2-3": -0.001754385964912281,
+          "4-5": -0.0006015037593984964,
+          "6-10": 0.0015789473684210526
+        },
+        "gold_rank_changed": 78,
+        "gold_rank_lower_bound_1_in_original": 9,
+        "mrr_corrected": 0.14293846630162865,
+        "mrr_difference": 0.000207367982946155,
+        "mrr_original": 0.1427310983186825,
+        "n": 95,
+        "top1_node_changed": 7
+      },
+      "0.75": {
+        "difference_by_original_gold_rank": {
+          "1-1": -0.005263157894736842,
+          "11+": 0.0001653699372313094,
+          "2-3": 0.003508771929824561,
+          "4-5": 0.0005263157894736841,
+          "6-10": 0.0015789473684210526
+        },
+        "gold_rank_changed": 80,
+        "gold_rank_lower_bound_1_in_original": 10,
+        "mrr_corrected": 0.14759131401170203,
+        "mrr_difference": 0.0005162471302137539,
+        "mrr_original": 0.14707506688148828,
+        "n": 95,
+        "top1_node_changed": 10
+      }
+    }
+  },
+  "pilot_a": {
+    "problems": [],
+    "severities": {
+      "0.25": {
+        "difference_by_original_gold_rank": {
+          "1-1": -0.01748971193415638,
+          "11+": 0.003500691084722355,
+          "2-3": -0.00102880658436214,
+          "4-5": 0.0005144032921810699,
+          "6-10": -0.0002669998040368408
+        },
+        "gold_rank_changed": 121,
+        "gold_rank_lower_bound_1_in_original": 32,
+        "mrr_corrected": 0.2260967621898455,
+        "mrr_difference": -0.01477042394565184,
+        "mrr_original": 0.24086718613549735,
+        "n": 162,
+        "top1_node_changed": 19
+      },
+      "0.5": {
+        "difference_by_original_gold_rank": {
+          "1-1": 0.0,
+          "11+": 0.0029856045470787094,
+          "2-3": -0.0030864197530864196,
+          "4-5": 0.0016460905349794234,
+          "6-10": 0.0
+        },
+        "gold_rank_changed": 120,
+        "gold_rank_lower_bound_1_in_original": 33,
+        "mrr_corrected": 0.23923208376814895,
+        "mrr_difference": 0.0015452753289718901,
+        "mrr_original": 0.23768680843917706,
+        "n": 162,
+        "top1_node_changed": 17
+      },
+      "0.75": {
+        "difference_by_original_gold_rank": {
+          "1-1": -0.0030864197530864196,
+          "11+": 0.003906870275355062,
+          "2-3": -0.00257201646090535,
+          "4-5": 0.0023221634332745438,
+          "6-10": 0.0
+        },
+        "gold_rank_changed": 123,
+        "gold_rank_lower_bound_1_in_original": 34,
+        "mrr_corrected": 0.23918068744344595,
+        "mrr_difference": 0.0005705974946380032,
+        "mrr_original": 0.23861008994880795,
+        "n": 162,
+        "top1_node_changed": 17
+      }
+    }
+  }
+}

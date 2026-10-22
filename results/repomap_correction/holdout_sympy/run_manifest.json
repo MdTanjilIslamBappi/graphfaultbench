@@ -1,0 +1,5 @@
+{
+  "config": "configs/holdout_sympy.yaml",
+  "n_rows": 28,
+  "wall_seconds": 211.09838944900548
+}

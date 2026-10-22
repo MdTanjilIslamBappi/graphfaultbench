@@ -8,7 +8,7 @@ Baselines:
 - `DiagnosticGate.rank`: Candidate A's distinguishing idea — choose
   graph-only / lexical-only / hybrid / abstain using only runtime-observable
   signals (graph coverage, anchor confidence), never gold labels or
-  corruption flags. See Gemma4_Research_Contingency_v2.md, "Distinguishing
+  corruption flags. See an internal planning document (withheld from this release), "Distinguishing
   idea to test".
 """
 
@@ -160,7 +160,11 @@ def fixed_hybrid_rank(
 
 
 def repomap_rank(
-    graph: CodeGraph, query_text: str, anchor_top_k: int = 3, bm25_index: BM25Index | None = None
+    graph: CodeGraph,
+    query_text: str,
+    anchor_top_k: int = 3,
+    bm25_index: BM25Index | None = None,
+    exclude_unknown_nodes: bool = False,
 ) -> tuple[RankedCandidate, ...]:
     """Structural-importance baseline: personalized PageRank over the
     directed graph, seeded (personalized) by BM25 lexical anchors.
@@ -171,6 +175,11 @@ def repomap_rank(
     published numbers. Included so Candidate A's hybrid/gate baselines are
     compared against a published structural-ranking idea, not only against
     baselines built for this project (directive §3).
+
+    ``exclude_unknown_nodes`` (default False, which reproduces every result
+    reported before the correction run) drops edge endpoints that are not
+    graph nodes (e.g. ``__DANGLING__:`` ids from ``stale_symbol_refs``) before
+    PageRank, so they cannot appear in the ranking.
     """
     anchors = bm25_rank(graph, query_text, index=bm25_index)[:anchor_top_k]
     anchor_scores = {a.node_id: a.score for a in anchors if a.score > 0}
@@ -179,7 +188,11 @@ def repomap_rank(
 
     g = nx.DiGraph()
     g.add_nodes_from(n.node_id for n in graph.nodes)
-    g.add_edges_from((e.src, e.dst) for e in graph.edges)
+    if exclude_unknown_nodes:
+        known = {n.node_id for n in graph.nodes}
+        g.add_edges_from((e.src, e.dst) for e in graph.edges if e.src in known and e.dst in known)
+    else:
+        g.add_edges_from((e.src, e.dst) for e in graph.edges)
     total = sum(anchor_scores.values())
     personalization = {nid: s / total for nid, s in anchor_scores.items()}
     try:
@@ -277,7 +290,7 @@ class WeightedDiagnosticGate:
     combination of the three diagnostic signals, rather than a single
     binary-threshold gate"), built and tested here rather than left
     unactioned, per the adversarial-challenge finding in
-    `research/kaggle_judging_simulation.md` section 2 item 4.
+    an internal judging-simulation note (withheld from this release) section 2 item 4.
 
     `anchor_confidence`'s role is unchanged from `DiagnosticGate`: it is
     about query/lexical-match quality, not graph degradation, so abstention

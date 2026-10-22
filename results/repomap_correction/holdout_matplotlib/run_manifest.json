@@ -1,0 +1,5 @@
+{
+  "config": "configs/holdout_matplotlib.yaml",
+  "n_rows": 20,
+  "wall_seconds": 39.235056593999616
+}

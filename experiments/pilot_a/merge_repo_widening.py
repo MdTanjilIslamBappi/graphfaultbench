@@ -1,4 +1,4 @@
-"""Merges the two-machine repo-widening split (research/decision_log.md's
+"""Merges the two-machine repo-widening split (the internal decision log's (withheld from this release)
 repo-widening entry) back into the canonical Phase 2/3/4 result
 directories.
 

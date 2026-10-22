@@ -1,8 +1,8 @@
 """Gemma 4 (E2B, local GGUF/CPU inference) as a reranker over a bounded
 candidate pool — the optional downstream demonstration described in
-`Gemma4_Research_Contingency_v2.md` ("For downstream agent validation, test
+an internal planning document (withheld from this release) ("For downstream agent validation, test
 a small stratified sample with an accessible Gemma 4 model") and
-`Gemma4_Paper_Track_Competition_Playbook.md` ("one small, properly
+an internal playbook (withheld from this release) ("one small, properly
 controlled Gemma 4 downstream demonstration... label that as secondary
 evidence and report full generation parameters").
 
@@ -132,3 +132,96 @@ def gemma_rerank(
         prompt_tokens=usage["prompt_tokens"],
         completion_tokens=usage["completion_tokens"],
     )
+
+
+# --- v2: indexed, grammar-constrained output (added 2026-10-22) -------------
+# v1 asked for node ids copied verbatim and parsed free text; only ~3.1 of 5
+# ids parsed per call on average. v2 numbers the candidates and constrains
+# decoding with a GBNF grammar to five newline-separated candidate numbers, so
+# output validity no longer depends on the model copying long identifiers.
+# The candidate pool, ranking fallback and scoring are unchanged from v1.
+
+_INDEXED_GRAMMAR = r"""
+root ::= n "\n" n "\n" n "\n" n "\n" n
+n ::= "1" [0-5]? | [2-9]
+"""
+
+
+def _build_indexed_prompt(query_text: str, candidates: tuple[RankedCandidate, ...], graph: CodeGraph) -> str:
+    nodes_by_id = {n.node_id: n for n in graph.nodes}
+    lines = []
+    for i, c in enumerate(candidates, start=1):
+        node = nodes_by_id.get(c.node_id)
+        if node is None:
+            continue
+        snippet = node.text.replace("\n", " ").strip()[:_CANDIDATE_TEXT_CHARS]
+        lines.append(f"{i}. {node.node_id} ({node.kind}): {snippet}")
+    issue = query_text.replace("\n", " ").strip()[:_QUERY_TEXT_CHARS]
+    return (
+        "You are helping localize a software issue to the most relevant code symbols.\n\n"
+        f"Issue report:\n{issue}\n\n"
+        "Numbered candidate symbols (already shortlisted by a lexical+graph retriever):\n"
+        + "\n".join(lines)
+        + "\n\nGive the numbers of the 5 candidates most likely to need editing to fix this issue, "
+        "most likely first, one number per line. Output only the numbers."
+    )
+
+
+def parse_indexed_output(raw_output: str, pool_ids: tuple[str, ...]) -> list[str]:
+    """Map numbers in `raw_output` to pool ids; drop out-of-range and repeated numbers."""
+    picked: list[str] = []
+    for line in raw_output.splitlines():
+        line = line.strip()
+        if line.isdigit() and 1 <= int(line) <= len(pool_ids):
+            nid = pool_ids[int(line) - 1]
+            if nid not in picked:
+                picked.append(nid)
+        if len(picked) == 5:
+            break
+    return picked
+
+
+def gemma_rerank_indexed(
+    llm,
+    graph: CodeGraph,
+    query_text: str,
+    pool_size: int = 15,
+    bm25_index: BM25Index | None = None,
+    grammar=None,
+) -> GemmaRerankResult:
+    """v2 reranker: numbered candidates, optional GBNF-constrained decoding."""
+    full_ranking = fixed_hybrid_rank(graph, query_text, bm25_index=bm25_index)
+    pool = full_ranking[:pool_size]
+    pool_ids = tuple(c.node_id for c in pool)
+    prompt = _build_indexed_prompt(query_text, pool, graph)
+    kwargs = {"grammar": grammar} if grammar is not None else {}
+    t0 = time.perf_counter()
+    out = llm.create_chat_completion(
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=GENERATION_PARAMS["max_tokens"],
+        temperature=GENERATION_PARAMS["temperature"],
+        top_p=GENERATION_PARAMS["top_p"],
+        top_k=GENERATION_PARAMS["top_k"],
+        **kwargs,
+    )
+    elapsed = time.perf_counter() - t0
+    raw_output = out["choices"][0]["message"]["content"] or ""
+    picked = parse_indexed_output(raw_output, pool_ids)
+    remaining = [nid for nid in pool_ids if nid not in picked]
+    n_picked = len(picked)
+    ranked = [
+        RankedCandidate(node_id=nid, score=float(n_picked - i)) for i, nid in enumerate(picked)
+    ] + [RankedCandidate(node_id=nid, score=0.0) for nid in remaining]
+    return GemmaRerankResult(
+        ranking=tuple(ranked),
+        raw_output=raw_output,
+        candidate_pool=pool_ids,
+        n_parsed_valid=n_picked,
+        runtime_seconds=elapsed,
+        prompt_tokens=out["usage"]["prompt_tokens"],
+        completion_tokens=out["usage"]["completion_tokens"],
+    )
+
+
+def indexed_grammar_text() -> str:
+    return _INDEXED_GRAMMAR

@@ -1,7 +1,7 @@
 """Optional Gemma 4 downstream demonstration (secondary evidence).
 
-Per `Gemma4_Research_Contingency_v2.md` protocol step 7 and
-`Gemma4_Paper_Track_Competition_Playbook.md`'s "one small, properly
+Per an internal planning document (withheld from this release) protocol step 7 and
+an internal playbook (withheld from this release)'s "one small, properly
 controlled Gemma 4 downstream demonstration... label that as secondary
 evidence and report full generation parameters" — this is deliberately
 small and separate from the Phase 2-4 pilots, not a replacement for them.

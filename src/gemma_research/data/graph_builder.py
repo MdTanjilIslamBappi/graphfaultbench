@@ -4,7 +4,7 @@ module/class/function/method nodes, and `contains`/`calls`/`imports` edges.
 
 Node ids use the exact `relative/path.py:Qualified.Name` convention used by
 Loc-Bench V1's `edit_functions`/`added_functions` columns (confirmed by
-inspecting the dataset directly — see `research/decision_log.md`), so gold
+inspecting the dataset directly — see the internal decision log (withheld from this release)), so gold
 labels resolve against this graph by exact string match, with no fuzzy
 matching step that could silently paper over a mismatch.
 

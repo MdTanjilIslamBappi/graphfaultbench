@@ -1,0 +1,23 @@
+{
+ "n_tasks": 95,
+ "estimate": 0.021052631578947368,
+ "per_repo_sum_diff": {
+  "django/django": 2.0,
+  "getmoto/moto": 0.0,
+  "matplotlib/matplotlib": 0.0,
+  "sympy/sympy": 0.0,
+  "tobymao/sqlglot": 0.0,
+  "yt-dlp/yt-dlp": 0.0
+ },
+ "tasks_fh_better_bm25_better": [
+  2,
+  0
+ ],
+ "draws": 46656,
+ "share_of_draws_exactly_zero": 0.33489797668038407,
+ "share_of_draws_negative": 0.0,
+ "percentile_ci95": [
+  0.0,
+  0.045454545454545456
+ ]
+}

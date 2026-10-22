@@ -1,0 +1,247 @@
+{
+ "resampling_unit": "repository",
+ "n_boot": 5000,
+ "metric": "hit_at_5 (paired difference, A - B)",
+ "results": [
+  {
+   "operator": "healthy_control",
+   "severity": 0.0,
+   "A": "fixed_hybrid",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": 0.0,
+   "ci95": [
+    -0.0556,
+    0.0405
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.091,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.056,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": 0.0
+   }
+  },
+  {
+   "operator": "healthy_control",
+   "severity": 0.0,
+   "A": "graph_expansion",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.037,
+   "ci95": [
+    -0.0909,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.091,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.0,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": -0.143
+   }
+  },
+  {
+   "operator": "healthy_control",
+   "severity": 0.0,
+   "A": "repomap",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.0556,
+   "ci95": [
+    -0.1207,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.182,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": -0.056,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": 0.0
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.25,
+   "A": "fixed_hybrid",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": 0.0,
+   "ci95": [
+    -0.0566,
+    0.0405
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.091,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.056,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": 0.0
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.25,
+   "A": "graph_expansion",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.037,
+   "ci95": [
+    -0.093,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.091,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.0,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": -0.143
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.25,
+   "A": "repomap",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.0556,
+   "ci95": [
+    -0.1258,
+    -0.0064
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.182,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": -0.019,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": -0.095
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.5,
+   "A": "fixed_hybrid",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": 0.0,
+   "ci95": [
+    -0.0189,
+    0.0136
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.03,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.019,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": 0.0
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.5,
+   "A": "graph_expansion",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.0494,
+   "ci95": [
+    -0.124,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.152,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.0,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": -0.143
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.5,
+   "A": "repomap",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.0432,
+   "ci95": [
+    -0.1085,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.152,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.0,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": -0.095
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.75,
+   "A": "fixed_hybrid",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": 0.0,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.0,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": 0.0
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.75,
+   "A": "graph_expansion",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.0556,
+   "ci95": [
+    -0.1395,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.182,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.0,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": -0.143
+   }
+  },
+  {
+   "operator": "stale_rewire",
+   "severity": 0.75,
+   "A": "repomap",
+   "B": "bm25",
+   "n_rows": 162,
+   "mean_diff": -0.0494,
+   "ci95": [
+    -0.1256,
+    0.0
+   ],
+   "per_repo_mean_diff": {
+    "PrefectHQ/prefect": -0.182,
+    "aio-libs/aiohttp": 0.0,
+    "dask/dask": 0.0,
+    "numpy/numpy": 0.0,
+    "python/mypy": 0.0,
+    "scipy/scipy": -0.095
+   }
+  }
+ ]
+}

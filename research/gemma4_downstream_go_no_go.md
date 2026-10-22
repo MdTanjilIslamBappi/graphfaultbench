@@ -3,7 +3,7 @@
 **Status: analysis complete, decision pending user confirmation.** No Gemma weights have been
 downloaded and no inference has been run. This document is the feasibility research requested by
 the user ("go for Candidate A's Gemma 4 downstream go/no-go early"), produced ahead of the
-29 Oct–4 Nov timeline slot where `docs/human_actions.md` item 3 originally scheduled this
+29 Oct–4 Nov timeline slot where the internal action list (withheld from this release) item 3 originally scheduled this
 decision. Nothing here commits to running anything; see "What this analysis does not do" at the
 end.
 
@@ -16,7 +16,7 @@ component:
 > **one small, properly controlled Gemma 4 downstream demonstration** on legally and technically
 > permitted accelerator resources to show relevance; label that as secondary evidence and report
 > full generation parameters. Do **not** require L4x4 or prohibitively expensive training for a
-> paper-track MVP." — `Gemma4_Paper_Track_Competition_Playbook.md:134`
+> paper-track MVP." — `an internal playbook (withheld from this release):134`
 
 A separate internal planning note made the same requirement from a different angle: test a small
 stratified sample with an accessible Gemma 4 model if feasible, and do not substitute another
@@ -80,7 +80,7 @@ confirming the exact variation before any download.
 ## 4. What this does NOT require
 
 - **No GPU purchase or cloud accelerator session.** This removes the main risk the playbook and
-  `docs/human_actions.md` item 3 originally flagged ("requires either local access to a Gemma 4
+  the internal action list (withheld from this release) item 3 originally flagged ("requires either local access to a Gemma 4
   checkpoint or an authorised Kaggle/other accelerator session") — a local, CPU-only, free path
   exists for the E2B variant specifically.
 - **No fine-tuning.** Inference only, on a small stratified task sample, consistent with this
@@ -170,9 +170,9 @@ remains before any action is taken:**
 **Why conditional rather than a clean go:** the original blocker (needing GPU/cloud access) has
 turned out to be avoidable via the E2B variant — but that finding does not by itself establish
 that spending remaining time on an *optional* addition is the best use of it against other open
-items (e.g. `docs/human_actions.md` items 1's residual self-certification, item 4's licence
+items (e.g. the internal action list (withheld from this release) items 1's residual self-certification, item 4's licence
 caveat, or the "widen the repository sample" optional item already logged in
-`paper/submission_checklist.md`). This is a scope/priority call, not a pure feasibility call, so
+the internal submission checklist (withheld from this release)). This is a scope/priority call, not a pure feasibility call, so
 it is reported back rather than decided unilaterally.
 
 **Why not a no-go:** unlike the originally-assumed scenario (requiring a ~52 GB 26B-A4B checkpoint
@@ -258,7 +258,7 @@ repo):**
 combinations, Gemma's reranked top-5 produced the identical Hit@5 outcome (0 or 1) as taking
 `fixed_hybrid_rank`'s own top-5 from the same pool, at both severities. This matches, on an
 independent secondary-evidence run, the same qualitative pattern already reported for the
-`DiagnosticGate` method in the Phase 2–4 pilot (`research/novelty_assessment.md` §2): an added
+`DiagnosticGate` method in the Phase 2–4 pilot (the superseded Phase 1 novelty assessment (withheld from this release) §2): an added
 layer on top of the lexical+graph baseline did not change which tasks were solved, on this small
 sample. Given the small sample (15 tasks, 3 repo clusters), the wide bootstrap CIs mean this
 cannot be read as strong evidence either way — it is reported as a consistent observation, not a
@@ -273,9 +273,9 @@ MRR credit from its long tail (e.g. gold at rank 2,401 of a large graph gives MR
 Gemma's pool-restricted ranking cannot ever represent that node at all, so its MRR for that task is
 forced to 0 by construction — not by a worse ranking decision. This pattern explains the majority
 of the 28/30 task×severity combinations where the two methods' MRR differed (see
-`results/gemma_downstream_demo/metrics.json`). Two cases did show a genuine, comparable change
-within the shared pool: `dask__dask-11605` (fixed_hybrid's rank-1 pick was gold; Gemma moved it to
-a lower rank but it stayed in the top 5, so Hit@5 was unaffected) and `dask__dask-10750`
+the per-task demo output (not included in this release)). Two cases did show a genuine, comparable change
+within the shared pool: one dask task (fixed_hybrid's rank-1 pick was gold; Gemma moved it to
+a lower rank but it stayed in the top 5, so Hit@5 was unaffected) and a second dask task
 (fixed_hybrid had gold at rank 4–5; Gemma moved it into the top 3). Both directions occurred once
 each in this small sample.
 
