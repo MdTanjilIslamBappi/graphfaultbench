@@ -10,7 +10,7 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use('Agg')
-import matplotlib.pyplot as plt  # noqa: E402
+import matplotlib.pyplot as plt
 
 S = json.loads(Path('results/pilot/summary.json').read_text())
 G = json.loads(Path('results/gemma_v2/summary.json').read_text())['strata']['severity_0.0']
