@@ -7,7 +7,7 @@ retrieval policies on [Loc-Bench V1](https://huggingface.co/datasets/czlll/Loc-B
 includes a small exploratory experiment with Gemma 4 E2B as a reranker. It accompanies a Kaggle
 Gemma 4 Developer Agent Paper Track submission.
 
-The principal write-up is `paper/manuscript.md` (the Kaggle Writeup text with its reference list;
+The principal write-up is `paper/manuscript.md` (the Kaggle Writeup text as submitted on 12 November 2026, with its reference list and Figure 1, `paper/figure1_degradation_and_reranker.png`;
 three phrases that named individual Loc-Bench tasks are replaced here by counts and repository names, and
 no result is changed). Treat the findings as exploratory: they rest on a pilot of six repositories, a
 holdout of six further repositories, and one model. The limitations and threats to validity are
